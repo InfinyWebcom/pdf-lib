@@ -1011,6 +1011,7 @@ export default class PDFPage {
         y: options.y ?? this.y,
         lineHeight: options.lineHeight ?? this.lineHeight,
         graphicsState: graphicsStateKey,
+        matrix: options.matrix,
       }),
     );
 

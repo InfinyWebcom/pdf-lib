@@ -17,6 +17,7 @@ import {
   setFontAndSize,
   setLineHeight,
   setLineWidth,
+  setTextMatrix,
   showText,
   skewRadians,
   stroke,
@@ -36,6 +37,7 @@ import { Rotation, degrees, toRadians } from 'src/api/rotations';
 import { svgPathToOperators } from 'src/api/svgPath';
 import { PDFHexString, PDFName, PDFNumber, PDFOperator } from 'src/core';
 import { asNumber } from 'src/api/objects';
+import { TransformationMatrix } from "src/types";
 
 export interface DrawTextOptions {
   color: Color;
@@ -73,12 +75,27 @@ export const drawText = (
 
 export interface DrawLinesOfTextOptions extends DrawTextOptions {
   lineHeight: number | PDFNumber;
+  matrix?: TransformationMatrix;
 }
 
 export const drawLinesOfText = (
   lines: PDFHexString[],
   options: DrawLinesOfTextOptions,
 ): PDFOperator[] => {
+    const translatething = options.matrix ? setTextMatrix(
+        options.matrix[0],
+        options.matrix[1],
+        options.matrix[2],
+        options.matrix[3],
+        options.x,
+        options.y,
+    ) :rotateAndSkewTextRadiansAndTranslate(
+        toRadians(options.rotate),
+        toRadians(options.xSkew),
+        toRadians(options.ySkew),
+        options.x,
+        options.y,
+    )
   const operators = [
     pushGraphicsState(),
     options.graphicsState && setGraphicsState(options.graphicsState),
@@ -86,13 +103,7 @@ export const drawLinesOfText = (
     setFillingColor(options.color),
     setFontAndSize(options.font, options.size),
     setLineHeight(options.lineHeight),
-    rotateAndSkewTextRadiansAndTranslate(
-      toRadians(options.rotate),
-      toRadians(options.xSkew),
-      toRadians(options.ySkew),
-      options.x,
-      options.y,
-    ),
+    translatething,
   ].filter(Boolean) as PDFOperator[];
 
   for (let idx = 0, len = lines.length; idx < len; idx++) {
