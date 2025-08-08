@@ -45,15 +45,9 @@
     }
   },
   "files": [
-    "cjs/",
-    "dist/",
-    "es/",
-    "src/",
-    "ts3.4",
-    "LICENSE.md",
-    "package.json",
-    "README.md",
-    "yarn.lock"
+    "*",
+    "!node_modules",
+    "!.git"
   ],
   "dependencies": {
     "@pdf-lib/standard-fonts": "^1.0.0",
