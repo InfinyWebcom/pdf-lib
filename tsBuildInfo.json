@@ -1,0 +1,4085 @@
+{
+  "program": {
+    "fileInfos": {
+      "./node_modules/typescript/lib/lib.d.ts": {
+        "version": "2dc8c927c9c162a773c6bb3cdc4f3286c23f10eedc67414028f9cb5951610f60",
+        "signature": "2dc8c927c9c162a773c6bb3cdc4f3286c23f10eedc67414028f9cb5951610f60",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "signature": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "signature": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "signature": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "signature": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.es2018.d.ts": {
+        "version": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
+        "signature": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "signature": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "7fac8cb5fc820bc2a59ae11ef1c5b38d3832c6d0dfaec5acdb5569137d09a481",
+        "signature": "7fac8cb5fc820bc2a59ae11ef1c5b38d3832c6d0dfaec5acdb5569137d09a481",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "signature": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "63e0cc12d0f77394094bd19e84464f9840af0071e5b9358ced30511efef1d8d2",
+        "signature": "63e0cc12d0f77394094bd19e84464f9840af0071e5b9358ced30511efef1d8d2",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "signature": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "signature": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
+        "signature": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "dfff68b3c34338f6b307a25d4566de15eed7973b0dc5d69f9fde2bcac1c25315",
+        "signature": "dfff68b3c34338f6b307a25d4566de15eed7973b0dc5d69f9fde2bcac1c25315",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "signature": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "signature": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "signature": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "signature": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "d0db416bccdb33975548baf09a42ee8c47eace1aac7907351a000f1e568e7232",
+        "signature": "d0db416bccdb33975548baf09a42ee8c47eace1aac7907351a000f1e568e7232",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "signature": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "signature": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "signature": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": {
+        "version": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
+        "signature": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
+        "signature": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+        "version": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
+        "signature": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+        "version": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
+        "signature": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+        "version": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
+        "signature": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2020.bigint.d.ts": {
+        "version": "4f435f794b7853c55e2ae7cff6206025802aa79232d2867544178f2ca8ff5eaa",
+        "signature": "4f435f794b7853c55e2ae7cff6206025802aa79232d2867544178f2ca8ff5eaa",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+        "version": "89bf2b7a601b73ea4311eda9c41f86a58994fec1bee3b87c4a14d68d9adcdcbd",
+        "signature": "89bf2b7a601b73ea4311eda9c41f86a58994fec1bee3b87c4a14d68d9adcdcbd",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/tslib/tslib.d.ts": {
+        "version": "f8b74c9a174eea1dced9aea206143ff452e5c6d446e8dfa5da836471d11c2a6f",
+        "signature": "f8b74c9a174eea1dced9aea206143ff452e5c6d446e8dfa5da836471d11c2a6f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/pako/index.d.ts": {
+        "version": "ac8256962829db28179e5b4ee97f4a0b27d85f219ad5c7b03b375673fadddd59",
+        "signature": "ac8256962829db28179e5b4ee97f4a0b27d85f219ad5c7b03b375673fadddd59",
+        "affectsGlobalScope": false
+      },
+      "./src/core/syntax/CharCodes.ts": {
+        "version": "fa7b90704b244feabb7a2580eca68076ad0140ea4bad4316616d639aa4b43632",
+        "signature": "e8668ac73db473c12470829f95b2b406924db85a1ecc714575fc141242920032",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/base64.ts": {
+        "version": "433dc1d78f6e12c89a3118671499e0eb8ae333bedc059209ceb21250303ff7ed",
+        "signature": "cdf17b2f629cb91ae3e093ab512467cbae10c10962fda33edc8aa928508ae8f7",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/strings.ts": {
+        "version": "14db5908a03cae77e35434d007b94ea9169bf4f9e1b1c53cbdcc2b0cb29390d5",
+        "signature": "f369e431e52a3e6a6e73e0abcff33dce3d9e58675b0a1dd5c5f85b53b2846c48",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/arrays.ts": {
+        "version": "079c0b0bdab6ef67aa053e9f69046847200041d27b7e57eaa209f88cdf69b6a9",
+        "signature": "db7669edd175a3c8177dba1b9b7e2064df412eec48e903ba9141787594cd7f0d",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/async.ts": {
+        "version": "e2df6e2bd4aae3e57ac963b991077d6ee319a9e3e4e4450e5c31d414d5009ecd",
+        "signature": "102d5bf75c50ce8c3b73f8504da259729e0eed7cae76ca291d53bf8ec8674e1f",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/unicode.ts": {
+        "version": "e27845dd8f90dcc03d0b972526f6ceeb7e069b6537e518e7741861a09f607fa0",
+        "signature": "d815a5087c901386bb4b812fb0d31c341eeb04c5ccabdd8ebb6b0810438768aa",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/numbers.ts": {
+        "version": "a56047616a0f7771656190624daa66aa5d921192952369ff741d366839d25e80",
+        "signature": "3b6d36cc65f76778793301baef698ba4623dbca4adb1f8ff3c3b3cc1ec6bea12",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/errors.ts": {
+        "version": "5482a1285d31741ec28955d8b0a8a28fec924aad79fabf2f47af6e56d7939f39",
+        "signature": "0e6537f8f9d707f15fa81455dad057f7292c57d32113feea1a70a1708ec33203",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@pdf-lib/standard-fonts/lib/Font.d.ts": {
+        "version": "35c36f02a6afa6e5ec3e570eb46077c1f7e39a08b84ecf02dd26add5ba9b7bad",
+        "signature": "35c36f02a6afa6e5ec3e570eb46077c1f7e39a08b84ecf02dd26add5ba9b7bad",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@pdf-lib/standard-fonts/lib/Encoding.d.ts": {
+        "version": "33036b5ee618a7bf30f5b667b4cfb08de73c809d115f2afea28520633aff7e72",
+        "signature": "33036b5ee618a7bf30f5b667b4cfb08de73c809d115f2afea28520633aff7e72",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@pdf-lib/standard-fonts/lib/index.d.ts": {
+        "version": "3a58767eb60591d2c1558c74f57d47ac1dd1e283e3bde0283647b906eca1aebc",
+        "signature": "3a58767eb60591d2c1558c74f57d47ac1dd1e283e3bde0283647b906eca1aebc",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/objects.ts": {
+        "version": "1d4a01cb20c77017eccf19740327005219556c387b6102f9fae47cc7ab2535f6",
+        "signature": "28d5b3b5ae94d6d3c98934f0dc8ff07561d4c0d0a3f378cf3d7daa855ea837c7",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/validators.ts": {
+        "version": "f6f13bedc97191f78afec6fe08904802f19973cb2603d2698d1dbbfc748add27",
+        "signature": "2573334470f5a9bfde9e8e889c2e6464a903b5f72cf4987a60782b9aededd450",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/pdfDocEncoding.ts": {
+        "version": "88b4589579242d14057d3c2ad2d69a3015000ef53975d8712956756f46f09b4b",
+        "signature": "f0cf0951c8dd903b40afe52918bf0e01f3f82e02b27edcff21b5d578a2d756a8",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/Cache.ts": {
+        "version": "15558b841c01b8a2b7eeebd16d012da91c21a5b85bcaecbfce1c11c01464e319",
+        "signature": "af2181042958b0af8e8d1ca73756ef7f324fea461f88dc235a995c94fbb79975",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/index.ts": {
+        "version": "68211299a91d5be67d04d275db53e9223bfbd34f9b433117180191cc5ac8f9a9",
+        "signature": "ca138b48942b4191b9a625a967f2584d44da423713528c40ba20b2e81d28720c",
+        "affectsGlobalScope": false
+      },
+      "./src/core/document/PDFHeader.ts": {
+        "version": "4481525386298168875dc843a77e527043f20088a275aa6e3bf28505e132d825",
+        "signature": "6ab0bd2d5ceb23130676a9f9dc0b7d2f24dd8431efe05813f4a2e490689efbc4",
+        "affectsGlobalScope": false
+      },
+      "./src/core/objects/PDFBool.ts": {
+        "version": "5737b7cf846ab8265622f8ccc7c678c33e56dbf9766bf7a748c7d4ca172a281b",
+        "signature": "71fb461e15c75b95d46e2efe17b696fad888652f830ffaf1ff34bded98aa1181",
+        "affectsGlobalScope": false
+      },
+      "./src/core/objects/PDFHexString.ts": {
+        "version": "6cc4aab56a78217d66073b13f3953d18b269ea026cf9aed05ff4a888a9c288d6",
+        "signature": "1914b8a919e5741db6d6cca524c094d534346a691397e0b01c1ba11cc47757c9",
+        "affectsGlobalScope": false
+      },
+      "./src/core/syntax/Delimiters.ts": {
+        "version": "ac2fddf5e8a08d18e3716f37ffa4aceb99e2483e10c230ab408b66d64fe324f7",
+        "signature": "2276813d44d10a5eb079c96783b9161d91bed3cec0502f539a911d86f5aecb58",
+        "affectsGlobalScope": false
+      },
+      "./src/core/syntax/Whitespace.ts": {
+        "version": "ad7f898d27c28b67f908326aa4a6379151e017d11256225278650305949850a1",
+        "signature": "79cbb8dba249046ca3467d26c9936038bd351d8558315f239adc410e0e28439e",
+        "affectsGlobalScope": false
+      },
+      "./src/core/syntax/Irregular.ts": {
+        "version": "fcb42213027f19764ac47d63050500c37a1f5e4def75cb7a5babbcdd3d6f0e76",
+        "signature": "82218a212b5b30b3de5c95c4ef0bee20576623fb3efd211c1d65c8f1abd16807",
+        "affectsGlobalScope": false
+      },
+      "./src/core/objects/PDFName.ts": {
+        "version": "a8af46fcd899db0f3869493308d732f36a26c123ad375086d52acd85eb0e73ca",
+        "signature": "25b3f0744574617b3f673c1272dbbc7919b52f1bac6f540d1fdb80240c2e3bbe",
+        "affectsGlobalScope": false
+      },
+      "./src/core/objects/PDFNull.ts": {
+        "version": "08f4638219f7358e49f7b82d3ac6a0e32286cce6dc7b7b804daedc906a89d169",
+        "signature": "87555a83c4db4cefe3190ce07cf0942c41bd17486535df8212dbb47a503a106b",
+        "affectsGlobalScope": false
+      },
+      "./src/core/objects/PDFNumber.ts": {
+        "version": "a93cd088aa5cb96369ee5c0509cf36bbaf93a2ce0a0b46e7bb2a00fb655f9c49",
+        "signature": "53c9120bf7a0c8cca23aff168683681c5127d66e75e2eaa39ee39e5dc224128b",
+        "affectsGlobalScope": false
+      },
+      "./src/core/objects/PDFRef.ts": {
+        "version": "2406c348c903a17b59d1558f0be087d0d4386704eaa2459ddf8f513eccd7a972",
+        "signature": "3f8c03d32250b71bdd5b713eaf0c9d3ba6109b08c07ceabf41c0b2802a95a5d5",
+        "affectsGlobalScope": false
+      },
+      "./src/core/objects/PDFStream.ts": {
+        "version": "7b99e91341dc62b19e29c1040ade7216188153b677b870957229bd3d3ad940af",
+        "signature": "be3b7af31d82a206603c9b5398154ade4d67c4ededcf84cfd1c5d2d6963a4da6",
+        "affectsGlobalScope": false
+      },
+      "./src/core/objects/PDFString.ts": {
+        "version": "15849d066389a149bad69f934832adfac664ded3f3efaa3ab1146c73c8c9bca5",
+        "signature": "1e2a1eb14cbef5984fe11b02acfb0e90370a342101bdc92f1c92327ef790a1d4",
+        "affectsGlobalScope": false
+      },
+      "./src/core/objects/PDFDict.ts": {
+        "version": "761b5aa850d7d1dff7722d9e9697d1b689bfc8cf527b70f865931c6fcf820e07",
+        "signature": "a804e595e4d2c9117dfabc0bde0a79410f111a0c460f8c21d4f1edcc713d8737",
+        "affectsGlobalScope": false
+      },
+      "./src/core/objects/PDFRawStream.ts": {
+        "version": "160d04a2fa34bd856f9e7c6574015b90e5c2e33742b44564dce6516ecab1a7e2",
+        "signature": "738f023b1977f586247d68fa2de35bdad28aad99536468422f3aafc17b8c055a",
+        "affectsGlobalScope": false
+      },
+      "./src/core/objects/PDFArray.ts": {
+        "version": "b1971a01cbe920e711f90c2068961022cb3e6af227d75a0dc88c623acc63d7af",
+        "signature": "f3b4bc1be15ee676727769c5cf611fe2e85c5de9c1cf0e176adeb0bb28b0b90c",
+        "affectsGlobalScope": false
+      },
+      "./src/core/operators/PDFOperatorNames.ts": {
+        "version": "e4884686b7be16605cface0a15d7ef30046d3c6f6925be181a630a5d807b6af5",
+        "signature": "527ecf9eb2d4a8f01c99eaae873cfadfc61bce97f30f0184ab102d61f13bfc8d",
+        "affectsGlobalScope": false
+      },
+      "./src/core/operators/PDFOperator.ts": {
+        "version": "07672f604d00d3ff64c6360df71862898f201a09dbf08c16112785242bda8009",
+        "signature": "1cebd484d376a53b1b6cd704ebbf253d8a3578786b476bcf6313df8065930b1d",
+        "affectsGlobalScope": false
+      },
+      "./src/core/structures/PDFFlateStream.ts": {
+        "version": "702333b030d59e0ac41889703d00fa04c4b44bf2d37158aa0f92ad4211ea5ee2",
+        "signature": "3fad090c82d511bc904df7777e5092568b00437654f107576cb02509ea889234",
+        "affectsGlobalScope": false
+      },
+      "./src/core/structures/PDFContentStream.ts": {
+        "version": "8fefb50869e7baca155a2c93e91106a1ce33dd409a8859e51f44e53d5cd8dd48",
+        "signature": "407b50c53faf118c6d5affc258f95bcc02783252b9753b80454c25243d627f37",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/rng.ts": {
+        "version": "958cf759737e9a566d651edfcb5d8a460af5a3db14d95b4d04c4841d90d171ca",
+        "signature": "12b3feeb1015f7ac8df8c1cd86c61c197bfcbd95f2ae79db981783757dfef6b9",
+        "affectsGlobalScope": false
+      },
+      "./src/core/PDFContext.ts": {
+        "version": "17094adf6e2e7191cb2ea7129fed60079dbe5bca69bcb26150bfe1c2a31fdb9a",
+        "signature": "fc483e3c808adc2db3be04cc250d074dd1b3b0daad95d8c136a5c67c8cc1df8b",
+        "affectsGlobalScope": false
+      },
+      "./src/core/objects/PDFObject.ts": {
+        "version": "e74b8e7849b60f4f9a01c9b17e1c6c53e3643ba2ba3b162b04df5643aad4805a",
+        "signature": "3eebe1ac2ec4ed4f8c35584b127e54a03a66c35e274691a03864e56f1f0bac7c",
+        "affectsGlobalScope": false
+      },
+      "./src/core/errors.ts": {
+        "version": "100e173d944eb4962bac6d60a7a3e4833737c2aacfcd9ba5f461e6fde141f168",
+        "signature": "00d857052660d82d6dd738f9c2772c7905c8bb9a0338ca23168e8daf2530710f",
+        "affectsGlobalScope": false
+      },
+      "./src/core/structures/PDFPageTree.ts": {
+        "version": "0bbece545fbae9364946a184333ad47488b5a1cec005994464cde43c36d09c29",
+        "signature": "87bcaacede0901e9dd21b186926883bebf8409cbb086f081ddf3bd26fa861457",
+        "affectsGlobalScope": false
+      },
+      "./src/core/structures/PDFPageLeaf.ts": {
+        "version": "783b2541f03ae81b0d7d39503f96120ef4492ea5fd66d53ba239e6253e5f69e6",
+        "signature": "d3317a9fb2caf76bcbd97d0a0ceb48dae4e3f42bd34474c7b3f28ee685a9c836",
+        "affectsGlobalScope": false
+      },
+      "./src/core/PDFObjectCopier.ts": {
+        "version": "30739824b798ad8a9288b45efb2b93ba19ce1ae455fa681993c1047ea64f6131",
+        "signature": "f358631b94f843adeed227fc03f39223983afce597b8a8fa5aec3fb1f1ecf3f7",
+        "affectsGlobalScope": false
+      },
+      "./src/core/document/PDFCrossRefSection.ts": {
+        "version": "92ff9e261d187e5dcddd5d22584f6ceca798205d4a8bbdfe5a7f623fe30a65c2",
+        "signature": "b48fc2a1c0e761b0063b036eb7de23e17fb1991a561f99ec316445dba8616def",
+        "affectsGlobalScope": false
+      },
+      "./src/core/document/PDFTrailer.ts": {
+        "version": "970211df791cdf85b20147aeff19f64b23d569d57bd6d9d138704ed9a1b97101",
+        "signature": "6ca2bbe29820516045b572ffab1101194ec13a9d5673b9753803ce13ea68651d",
+        "affectsGlobalScope": false
+      },
+      "./src/core/document/PDFTrailerDict.ts": {
+        "version": "91b914fdcda108580f638697ae82e4e6dc35ef0aab02f057e1a20e4463fac43e",
+        "signature": "4526e01da1846c12ff5594aeb65cad494adc83627bf1497330f40a2d61504cd3",
+        "affectsGlobalScope": false
+      },
+      "./src/core/structures/PDFObjectStream.ts": {
+        "version": "2a91aa3d9b5b3647ee017edbf5eec4d5bfdcd69c13c25e5e1bd348692c84096a",
+        "signature": "d6b5a9a88bf6f42da71185e66d1cb7db3a777b8008aa7e2a5326fc22524055bf",
+        "affectsGlobalScope": false
+      },
+      "./src/core/writers/PDFWriter.ts": {
+        "version": "dc0ac0b6c3d5130a5a93b8eed3e2fcf1fbfc496c063c8f47a8886be26c3b4c33",
+        "signature": "b8e9175593c8467b8b07b2ec85bf1f0ccb3f107803cb3e7a418d1756ec2a6027",
+        "affectsGlobalScope": false
+      },
+      "./src/core/objects/PDFInvalidObject.ts": {
+        "version": "878a9a0eb436bfed9549c03cea633d1298b4a89f230b0a7e9a151528de914bbc",
+        "signature": "d8080d4985b7e9d9cc758cfb54d06cb6fa3a9df9e235ae955f9e1a4b3789b523",
+        "affectsGlobalScope": false
+      },
+      "./src/core/structures/PDFCrossRefStream.ts": {
+        "version": "d5d4e1fb3e37d613f730887dea66f4dd5c57b8756dddc3038487f65181e97d6f",
+        "signature": "e83810546be24eda54d69829eeca1ed602c9354e48cba78ca26a320d50260447",
+        "affectsGlobalScope": false
+      },
+      "./src/core/writers/PDFStreamWriter.ts": {
+        "version": "f917a56659a6e0657186b1d6e797ef4d78d82b9d9d60b822f248cc8155269f37",
+        "signature": "858c52548b7746ac11e2cd742421e3d99d4960a2a6b764b4ba286af66decb99c",
+        "affectsGlobalScope": false
+      },
+      "./src/core/embedders/StandardFontEmbedder.ts": {
+        "version": "578f309feaf74e5bb036726bec9426b534850a8f172e5d0c3696906c5d6a7f04",
+        "signature": "f81c618bfe3c18d50d5d6e007a7cc0de0dbfcb7c7f698154fbaf1125b32363d9",
+        "affectsGlobalScope": false
+      },
+      "./src/types/fontkit.ts": {
+        "version": "d7602ef6ab4eace7e894c4ae170f055e9ef68e6ade3ef2d40ae2c6b523652d1a",
+        "signature": "a99e3b51a6e3e9e9b231aab0baa6fa3244e46f76198fa4864c9e09736e42843b",
+        "affectsGlobalScope": false
+      },
+      "./src/core/embedders/CMap.ts": {
+        "version": "fc32cd8fc99bfce0f15ef4f41835899ce18b58317ff9bf40cbf4ff1b3b5bedb5",
+        "signature": "d77551a6c341ee98e77142baf016b7674c0beb963404683f140841c7068208bb",
+        "affectsGlobalScope": false
+      },
+      "./src/core/embedders/FontFlags.ts": {
+        "version": "a19d8a9842a152cf932595031f4c6950910956d0e212d21e9eef16f250b56b79",
+        "signature": "8a3a32da0094fccc376a95aaf8ceb5ebeaa090912da77ec60800b954e9236a45",
+        "affectsGlobalScope": false
+      },
+      "./src/core/embedders/CustomFontEmbedder.ts": {
+        "version": "35091c0674268a4cda2b2393186a2eee2815bbfa8fdb5b7883642ba60a019876",
+        "signature": "31a919964ea657e38c2d3d448ad4695229c0660eaa0b0e8fe39a9cd0f5ec848e",
+        "affectsGlobalScope": false
+      },
+      "./src/core/embedders/CustomFontSubsetEmbedder.ts": {
+        "version": "68afe7b09f5d5166c5851cf604a33d3f17699da6eecaec76e32e1e51e4791df8",
+        "signature": "1e54c9e0d8bd03b093eb4ae7c92cadbb11a7c7473d0c572b9d7758965cee4735",
+        "affectsGlobalScope": false
+      },
+      "./src/core/embedders/FileEmbedder.ts": {
+        "version": "8909d130453edd242dbc527d08b273ea46f4daff9135329708f80dd98f6b68f7",
+        "signature": "1d1f3f0d96d7901147b62eb760ee1b64795a2f69a3ef2f0d1db5840693467e9c",
+        "affectsGlobalScope": false
+      },
+      "./src/core/embedders/JpegEmbedder.ts": {
+        "version": "90029ad9dc85f3fe014a3793a33505602e938622f056cf5254122dca5804141f",
+        "signature": "176fbc70bf02df7a6aa81e25d12cf9784d546be6d5e56e0b3150dc0a2b6c683a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@pdf-lib/upng/index.d.ts": {
+        "version": "358fbb5e0eb7b1d81e783e7342518049247640f56f83d8a375006c07630ccc6a",
+        "signature": "358fbb5e0eb7b1d81e783e7342518049247640f56f83d8a375006c07630ccc6a",
+        "affectsGlobalScope": false
+      },
+      "./src/utils/png.ts": {
+        "version": "d96d0ac4f7d5f21f1597528e1503e9e0ab63aad9369d2e8c2361d24118252af0",
+        "signature": "c1b125df556bbc39483a29f61cab66ba2b6211a5887c3c7af6f6b2b536906d7c",
+        "affectsGlobalScope": false
+      },
+      "./src/core/embedders/PngEmbedder.ts": {
+        "version": "d2abc79abdd1ed0e7fee878d42463b69e0108c99d1b426eda9d888f3490fa6b2",
+        "signature": "a1288b96c281e3fff49dfa77a74253f20170b2710bcb3da403b0d1f1adde776a",
+        "affectsGlobalScope": false
+      },
+      "./src/core/streams/Stream.ts": {
+        "version": "6e088685ef1eb7e279482972d017d3489fddef01dfe3d43557b99064496f3664",
+        "signature": "e5fb3bdaad1b22de460603c71cd92d9c331c2641250e32d2270fa72d1ce17f45",
+        "affectsGlobalScope": false
+      },
+      "./src/core/streams/DecodeStream.ts": {
+        "version": "5333336dc05b3605449a465435b18fe4e844a9cdd22fc1d03ca499d96b2b7047",
+        "signature": "ad89e6d5753e231035a1c4e89d1b125a9c88eb0827550ea99d8db5c9bf03f860",
+        "affectsGlobalScope": false
+      },
+      "./src/core/streams/Ascii85Stream.ts": {
+        "version": "e4ddb58debf02b9c452757eb066e7ae718ba2f30c640888841ab8415d7121f5b",
+        "signature": "fac9a968cd2afe6d71881baac18ee19a193d783ad03bab07ff5c0798ddfd55ff",
+        "affectsGlobalScope": false
+      },
+      "./src/core/streams/AsciiHexStream.ts": {
+        "version": "d4ed148500ae5bcf22b31af3232a3245b8b84b6920bf72090065448b082c5f41",
+        "signature": "919ae3024c44f79836a5bd273031b22c1581f78dc79327c14beb14ff1b1bdbf5",
+        "affectsGlobalScope": false
+      },
+      "./src/core/streams/FlateStream.ts": {
+        "version": "a7390d7d5ea67debca981a34182bc0ca34252e393f5f0211cebf36551cbd5db5",
+        "signature": "9fcaf58ffb336bdebe172b7fc705eac83144eb33ee8e4a2231fd113eb0baf779",
+        "affectsGlobalScope": false
+      },
+      "./src/core/streams/LZWStream.ts": {
+        "version": "ede24b9502ebb158342196b6f11a0bee0403b709a902336202d06194ded8e63f",
+        "signature": "b01f3ee65ca42922b7f2e7fe6450abc5309e01eec4767ed90b8b83a1b304c6a8",
+        "affectsGlobalScope": false
+      },
+      "./src/core/streams/RunLengthStream.ts": {
+        "version": "1bb1ea3f4ed0e52975bf792e2bf6d7ef854512c4e5fc4e64fab178de462d02a9",
+        "signature": "27b210726abc37f3c3ffcd073eb66924d17e7ba86e86be910761cb8aaaabcb97",
+        "affectsGlobalScope": false
+      },
+      "./src/core/streams/decode.ts": {
+        "version": "f5db98e4f4de186dbdd26e66177f824803a465f7f7892463c4112149d90cb311",
+        "signature": "451ee33f598ab3bce28e05a321580d6f6d8ce1e429bc84828bfd4ba1b84f7e86",
+        "affectsGlobalScope": false
+      },
+      "./src/types/matrix.ts": {
+        "version": "4109b3b722902fa461fc79930840b8fc218ca7eaae04e6346ea050fcbfdb0e1a",
+        "signature": "cdad8ffaa336507dc74e4d34bd128946fcc2892e893da02df86694e5e123d489",
+        "affectsGlobalScope": false
+      },
+      "./src/core/embedders/PDFPageEmbedder.ts": {
+        "version": "7e6b0ac398495a8f3e3c35a57b1e95fae70de5b829fa86122f11d584b5a10336",
+        "signature": "790ebbb78fade244ca9f3d0e8d3acf46096757d3dc3bde76708feeb70c76ffcb",
+        "affectsGlobalScope": false
+      },
+      "./src/core/interactive/ViewerPreferences.ts": {
+        "version": "3efcc9065105b67b799118830c70408056c25cd3c2058b26deb499e6a9c0a791",
+        "signature": "d4a68a15e3a3ca59be1ca557bf085df13bade11fe28433022d3694381a8ef3c1",
+        "affectsGlobalScope": false
+      },
+      "./src/core/acroform/PDFAcroField.ts": {
+        "version": "b6d69d72ee6c7a402e2ef812ee2851e2e1e99341058ad10f4190bd8fb8f7ffd7",
+        "signature": "dc1ccd9c28978355fded1b4ec8e03b4859e422d985ae0c1f7bd03e0e8828b138",
+        "affectsGlobalScope": false
+      },
+      "./src/core/annotation/BorderStyle.ts": {
+        "version": "7dbc805cf696e937a9d73bbc9a37097fd8f62b3e7dd013e775eadccce317ba8b",
+        "signature": "0c90b18db3e7e3a0cb2ced6788616cfa494b32b640ff0864e1e4971933c9fd84",
+        "affectsGlobalScope": false
+      },
+      "./src/core/annotation/PDFAnnotation.ts": {
+        "version": "d1f244cd4c11486c6acf0bc7f5db94ee3beb12abe79903eb1d5a5b921166ff2d",
+        "signature": "37f104397be5e1e5b9b486e11fb6c906788ddea858794a8bb87774fcc28628cf",
+        "affectsGlobalScope": false
+      },
+      "./src/core/annotation/AppearanceCharacteristics.ts": {
+        "version": "07963efb36e9e06afc91d0314fef0348ce6964e7dc3f3ae6dede9940d457d204",
+        "signature": "5006a93f1d45f932c790c49ca811200f6f57a3166a7a23f96f6302db7a66d5bb",
+        "affectsGlobalScope": false
+      },
+      "./src/core/annotation/PDFWidgetAnnotation.ts": {
+        "version": "f2ccec728c18b5dbf7a7412de59100ec8c073b116367cec7ca3a97977b8df7ad",
+        "signature": "00a7fc1934fb5d7797e1a4cece7be16bcc04851f1e8e5d9ea04017404be16eeb",
+        "affectsGlobalScope": false
+      },
+      "./src/core/acroform/PDFAcroTerminal.ts": {
+        "version": "b63a1a6cf8b497eaa90cac1fd770eb6289342256f1c17408666442e1b88439eb",
+        "signature": "4506418cb3e489883c32daa758cdb770f2c3c784bb65e018aa7bb776939a2c56",
+        "affectsGlobalScope": false
+      },
+      "./src/core/acroform/PDFAcroButton.ts": {
+        "version": "d30d45c532089f78aa7630879e96fe977a696b7aece6739982aca7f521fd4d78",
+        "signature": "fe2a46615f500f4d84d03bb5fb8f7a22f9b13c7f3d10d32e020185fb47ba6e9a",
+        "affectsGlobalScope": false
+      },
+      "./src/core/acroform/PDFAcroCheckBox.ts": {
+        "version": "d37555578bf06699d82c16a2f3322170dd26b7491711e2d3f868015e01ec4dd4",
+        "signature": "67da378eaa0fd37a827ac12a1c379571d6e14705ae30ff2fbf058808c37f4962",
+        "affectsGlobalScope": false
+      },
+      "./src/core/acroform/flags.ts": {
+        "version": "53b0ea4c071c7575cc642d4db5a1116d47095d226e5e4cfb7a23f88c681147d3",
+        "signature": "0e9faab44fc561cc2f086fa50f9baec1a24eeac3a638e223fa9bed570db63cee",
+        "affectsGlobalScope": false
+      },
+      "./src/core/acroform/PDFAcroChoice.ts": {
+        "version": "403d752848794832ca10454dde95d1fd14b92ff70a1c5cb5ec61e4540a70d45b",
+        "signature": "161a70987a191a72ed0c0d98dd89cfe296baf233f1a582c8f3b532e42bdfeeba",
+        "affectsGlobalScope": false
+      },
+      "./src/core/acroform/PDFAcroComboBox.ts": {
+        "version": "7f16b8705e2aa58960efeb691d011df4ab6aec28b6e2045cf6c3aedbdf00c8d2",
+        "signature": "c27b7fee1ad1a622e06ec55817cd8031dc49df9f06b3e8a8dc0cf8a98562f0c2",
+        "affectsGlobalScope": false
+      },
+      "./src/core/acroform/PDFAcroNonTerminal.ts": {
+        "version": "8d38adc059da2de5f1fef1ee410383abadfd11bd574fc38ef584f408a4f992ae",
+        "signature": "595f9f70e7ba961c8baadefeb91471f3cb13a5b44a97d95a0deb15bc119fd7ac",
+        "affectsGlobalScope": false
+      },
+      "./src/core/acroform/PDFAcroSignature.ts": {
+        "version": "307628af5d268df2ae739869ae5f4abec49218bf690835d03da73a453b66d635",
+        "signature": "0768be62a98a672891145c25a6f41462ccd105d67d1d55e655e3927c7e0067d2",
+        "affectsGlobalScope": false
+      },
+      "./src/core/acroform/PDFAcroText.ts": {
+        "version": "6529b9fe87b6134610e07e2c748ce780b1b106d435d512af1331899086563dbf",
+        "signature": "a40156d8e6350c0d241fa6c40b5812aac26e49a5403e2976cf1a3c63460e7266",
+        "affectsGlobalScope": false
+      },
+      "./src/core/acroform/PDFAcroPushButton.ts": {
+        "version": "4c5bcfa17cccbfc3341bd7e6bd98c54418258a61c4c7c05e58333896f3329ffd",
+        "signature": "956176887101209cafd6b705242d8912edc529cacf44087776d794515bf36f02",
+        "affectsGlobalScope": false
+      },
+      "./src/core/acroform/PDFAcroRadioButton.ts": {
+        "version": "34aab433ed805d9fce981907ff345e0b5034a381c839defd27958157b34f2c06",
+        "signature": "65da730aba6de4cf5d3af7d470832867727ca198cc4b648e99782f63625b8ec1",
+        "affectsGlobalScope": false
+      },
+      "./src/core/acroform/PDFAcroListBox.ts": {
+        "version": "f23009dc94ba3c1f42ba931d5fd3b4bd274c8d2019c76324342ba23f175f551e",
+        "signature": "16ab7f190fdd52cb4f64e9543b072399188b7bc0fca4cef16fdfc7da9f99a014",
+        "affectsGlobalScope": false
+      },
+      "./src/core/acroform/utils.ts": {
+        "version": "40b943d9e671fcbabf44c623173854f7acf32e7ecbe8353f2af68b497cf5ef46",
+        "signature": "f807ab9441c1f8853fd3d62579a448ed3b0f02d5b116e9b2b2dcfc034414829b",
+        "affectsGlobalScope": false
+      },
+      "./src/core/acroform/PDFAcroForm.ts": {
+        "version": "3938155529f88b2fe283c51bcb5b199799fc807f2d59bc4bf34402c2ac148e07",
+        "signature": "7492a88f2e27a63a83a8d1aff03f5a40680bd006ec3d210380c0c30e129265d6",
+        "affectsGlobalScope": false
+      },
+      "./src/core/acroform/index.ts": {
+        "version": "95baa6d622af401838d4acaf7e29bd15d553bfc4da3a8f4e13bdb0cd4b0c73d0",
+        "signature": "41466210b02874b3efe5a6e9e4813aac56e6f7a6b02cf4fd7b745f4edfd7c0e0",
+        "affectsGlobalScope": false
+      },
+      "./src/core/structures/PDFCatalog.ts": {
+        "version": "989aff50d3c2a217a42cdf685c5f522d58f447473eb6242c6f9e64958a4eaf50",
+        "signature": "78dd8fb47e508fec817362704f4dd54592a6127285ca5d5df1151ea0eeb15c05",
+        "affectsGlobalScope": false
+      },
+      "./src/core/parser/ByteStream.ts": {
+        "version": "bcb4831ae1691eefd4c471eef258901a21ccfb957c7e8243a1bc952655aa6186",
+        "signature": "1f60ed45c11632a8c13e191636793f4780fe25a74807712dddecfb1f56640951",
+        "affectsGlobalScope": false
+      },
+      "./src/core/syntax/Numeric.ts": {
+        "version": "61ad6856e1c6a9f54577c9c806121b867e7b39d6bc1b93c402783eaee999941a",
+        "signature": "b01953eb4bd2b79ca9d19ec29b4d060a07cac88ef8d52620ecfc9bf7f0a12f69",
+        "affectsGlobalScope": false
+      },
+      "./src/core/parser/BaseParser.ts": {
+        "version": "b0dc0a38f7dd015c5a96bd2c5cc1e7f03308a9721eeeb31b3a22314aa7abaf14",
+        "signature": "09395b42f084f4c1d4fa02141b35bb72020e246c6dc704f515ea134e14372a05",
+        "affectsGlobalScope": false
+      },
+      "./src/core/syntax/Keywords.ts": {
+        "version": "5f7703c317dee739b2701013016debc499d19a6e7731326e85081088c6bb4d2f",
+        "signature": "7acc95041805c108e3e163eb85c23b83078779ebc7cc40e3ae6b8cc79048c7d2",
+        "affectsGlobalScope": false
+      },
+      "./src/core/parser/PDFObjectParser.ts": {
+        "version": "929b1d98eab27cca5ec19bbd74dd10974d1ea5918ee87a64fcc85a30c9b475fc",
+        "signature": "6c21ddad0e9349d95430d553eb4adba184e104f5aedd05a151079aec6b58660b",
+        "affectsGlobalScope": false
+      },
+      "./src/core/parser/PDFObjectStreamParser.ts": {
+        "version": "5d362c5b38121d695dd5cc130fe207798079b1e42d7e2444aad464bb94c27e73",
+        "signature": "ec0fb6b8a6ea4eda89b390103e7e3d2ba5f3e0bef433af77fefcd220c80ad216",
+        "affectsGlobalScope": false
+      },
+      "./src/core/parser/PDFXRefStreamParser.ts": {
+        "version": "a0b6d379da5723ea3276213fd3b29fe93e41367048923efe1ebd3649cffc0e4e",
+        "signature": "c52eda0b9fab12524d3ff3b86a992a8d02cdd3b8e4af316e09cc07a496333cf3",
+        "affectsGlobalScope": false
+      },
+      "./src/core/parser/PDFParser.ts": {
+        "version": "59b2ee42572e4c2e8c388d5a02dc809504270c96f771ded04134d50da3086be2",
+        "signature": "58549c57a8683490265101d6af7385ae2fd8ccd9c344f5755427e22041fb2ff1",
+        "affectsGlobalScope": false
+      },
+      "./src/core/annotation/flags.ts": {
+        "version": "4f5a82106f9aefe807f0fc0c63c5f28315a04575e6a775bb6326691b52494184",
+        "signature": "40233872915674c44ae64efbd3dffa4bba5ec4b3327f5a8ed88bd845cdabedf4",
+        "affectsGlobalScope": false
+      },
+      "./src/core/annotation/index.ts": {
+        "version": "0919852f1aa39ac0b383415a65b0fb198916fbe1660dfed790c3cc56d0e5755a",
+        "signature": "51ebca71078b43a9f1491f19b223a64e980f0101e1a686767cea3d3455b5ade3",
+        "affectsGlobalScope": false
+      },
+      "./src/core/index.ts": {
+        "version": "2a080635f9894f5c840c01f09c7b856f5acf330e155eded463318ac6f971c041",
+        "signature": "d0ebb3d5cb2a216d051e6c24c43e2b9a9f56164ab3865abb9ac430ccaa73868a",
+        "affectsGlobalScope": false
+      },
+      "./src/api/Embeddable.ts": {
+        "version": "763bfef17792c12c2fb265958b430d39d770fa90218d44f07ac91ae7818bf3b3",
+        "signature": "c839d8986fd31a00a943744fd7bae159d22beb231b5bd79b7df41e61cabe313f",
+        "affectsGlobalScope": false
+      },
+      "./src/api/errors.ts": {
+        "version": "7b1da7f9ab98197aec92eadc93dc3046fa971074c45dc235694a06792aa516b4",
+        "signature": "6d16bd65fb797808e275c4f0f15e800e4fc91b4108d4513203d155173cff3544",
+        "affectsGlobalScope": false
+      },
+      "./src/api/PDFEmbeddedPage.ts": {
+        "version": "52da503ed0ef5ec7d2f140e58db13be7c94978a52527f15654aeedfea2681f79",
+        "signature": "d5ec6f4382a1ba7539a0703214e8d9a185b806cc8ffdc5faa1f97d406c7ae357",
+        "affectsGlobalScope": false
+      },
+      "./src/api/PDFImage.ts": {
+        "version": "197951b8a8a66d6f867ed4a9df59aad9142d5603c5d29bd071434ac32e68830f",
+        "signature": "c1f1e40ee1455134e7049955fd3afb98470898bb2c5a3ccda0dfe417d764071b",
+        "affectsGlobalScope": false
+      },
+      "./src/api/objects.ts": {
+        "version": "be1ac9a8befb0c4b947a1b98c9125286af2245fa4e1876be002502389d6cb011",
+        "signature": "2af061917c34d7549d512752ba63c34e58cc41c7fc5210fc043208144de7743a",
+        "affectsGlobalScope": false
+      },
+      "./src/api/rotations.ts": {
+        "version": "11e89124e7774b2f1b1ecdbbb32797195bccd6211b986fc650817a22f3978755",
+        "signature": "53ecda94af536601498e24f0013b4ec56474eb48e031d9f6ef2b01ec2b502e46",
+        "affectsGlobalScope": false
+      },
+      "./src/api/operators.ts": {
+        "version": "bc53189790637b1c822de08753d66b7a1c309b404af3333441817bc4ef85916d",
+        "signature": "a82a205dd1e830c3b76d67d23d04d2774042b41bb05ed7e03c37fa388f537a9b",
+        "affectsGlobalScope": false
+      },
+      "./src/api/colors.ts": {
+        "version": "f8696f1555b6ca94e3fff72ac5994aac6572c062966440fdd364324fdffdea0f",
+        "signature": "51d075570db06b937bbafe33927ec20c36e2637df84cb2eddccd037cdc743c18",
+        "affectsGlobalScope": false
+      },
+      "./src/api/svgPath.ts": {
+        "version": "c19e79d50dc804f5726c1843d110554e981ed13f7254a99e2f7d834455da62d5",
+        "signature": "f34c6dfc44bf3a5c1a9a2d6e570db2f9797d268f8c489e527c5af74940db3d26",
+        "affectsGlobalScope": false
+      },
+      "./src/types/index.ts": {
+        "version": "eccd3a6f6faf0496bae539c4757038f3af324b17bb3b5ee26d4668a543c8e3ae",
+        "signature": "3992457b444522e628b2669633e02a131d013e6e2f7d5a924cfd293f20193a89",
+        "affectsGlobalScope": false
+      },
+      "./src/api/operations.ts": {
+        "version": "8b9dcc0c2b8203f0d22dccbc75da3168ae41bda38423e35f87c466c0ac35afe6",
+        "signature": "45aaa70041c240fb41f020b386878bc8d68ccb72b2245b1aead5a7e03e5d8537",
+        "affectsGlobalScope": false
+      },
+      "./src/api/PDFPageOptions.ts": {
+        "version": "566127b3ab2976e46dfa406d77dc8cc9b60baae354c044d3e4149fa2f8a481d0",
+        "signature": "4e9c0dfd027c32e481220b5a35a72230599d521a156fbb7d605a1e6a48e06ec5",
+        "affectsGlobalScope": false
+      },
+      "./src/api/StandardFonts.ts": {
+        "version": "66e697c1f5e18cc6f356489107fd8457a6aebabed28cd82e276e76ca68e7f5af",
+        "signature": "3f99ccc1fc122125d5b1a85c9f4d820ca9b2292949e4da8b8c23cf58193adf1e",
+        "affectsGlobalScope": false
+      },
+      "./src/api/PDFPage.ts": {
+        "version": "97ce1faf0f86d483933d6a8554b2a283d82a0ecadf949e69c92d57f17233eecb",
+        "signature": "024cd2ba3c47fabf54fbac64d5c03f8b778ec55aa56317c268df5c192ba8666b",
+        "affectsGlobalScope": false
+      },
+      "./src/api/image/alignment.ts": {
+        "version": "4be6e327e4ab8aff413e0a7e68e74b57d26d936a90e1cdcb64de18195f237982",
+        "signature": "566ae571658f7572499d0fd8ae18b1fa3c2324d9999f9e465ff615a031412684",
+        "affectsGlobalScope": false
+      },
+      "./src/api/image/index.ts": {
+        "version": "6d2e5b0037f108dba0e9b8efabd95cb2e1f21ff6deb91ed9766517c675220c1e",
+        "signature": "7f81be836bd80d9adfa15e2b57ae7a4bcbfa2bb464b32d5a1d53d479d9753b84",
+        "affectsGlobalScope": false
+      },
+      "./src/api/form/PDFField.ts": {
+        "version": "2764dd39439312d30155985055fb20170f78faf1dbd59a34ffa09ca389673b55",
+        "signature": "8d324bcc3c94b5e1167f5f01f456c85d14ffc2a63826207093f6548372e23e45",
+        "affectsGlobalScope": false
+      },
+      "./src/api/form/PDFButton.ts": {
+        "version": "5b143e56609d6d18a281db7ffd322de986779f356493b9410b2ffc067213eca6",
+        "signature": "fcbbac3e6440f4aa265a8b6e529e3596d24409355d832c66c41c6ea72726c018",
+        "affectsGlobalScope": false
+      },
+      "./src/api/form/PDFCheckBox.ts": {
+        "version": "b4796874ca0fa66ba691d41bbcc438959fc21fbe1e424c40b572c2d1e25393a0",
+        "signature": "32a1b5719848eee71235ea101277f2775dcac62bd2038b0ed15df7698d51bb8d",
+        "affectsGlobalScope": false
+      },
+      "./src/api/form/PDFDropdown.ts": {
+        "version": "799850c890e1b30cb4242e76d5920d0aefe1a4cac5ab5f55407635fadac67516",
+        "signature": "cc2959592e2687cd978415e43cec7534ec80f4cb64902ec0f0465b7870a98b2b",
+        "affectsGlobalScope": false
+      },
+      "./src/api/form/PDFOptionList.ts": {
+        "version": "21efbc9af55829287fd7ba111405ec40c56bf746759bd052d12cf6986ce652b7",
+        "signature": "42e04a5d6a32a100167fab8d6294c4a44eca01a60b7ee99462ef71e97b7900b9",
+        "affectsGlobalScope": false
+      },
+      "./src/api/form/PDFRadioGroup.ts": {
+        "version": "ea085c6eb67e63f065dd424c36c6d7207af9d81ae1f606a5cb011bdfd24fd8c7",
+        "signature": "a300f8fe028142731b4270749d41a0479ca8fa2c28fb74db685e5cb24e79f9f5",
+        "affectsGlobalScope": false
+      },
+      "./src/api/form/PDFSignature.ts": {
+        "version": "a0eb548c50cc3679bd5c4ded832916e4b1c58424bce40da6c0439f44f2b75ef8",
+        "signature": "ded30595365d46d5f88f9e9144c36677cfeff2177bffc65cc3ad93a735938127",
+        "affectsGlobalScope": false
+      },
+      "./src/api/text/alignment.ts": {
+        "version": "f6986b25768c30fcbe8b96173b1510575a46bf92a8cac90c80a2668540fb676a",
+        "signature": "2ab379124c17e0b0bd0cf28ee7f80bd45cf20409a8cb6fc53b6d8e505c73a50e",
+        "affectsGlobalScope": false
+      },
+      "./src/api/form/PDFTextField.ts": {
+        "version": "e6576a5b75b5c38d3a54c84bf6356c847da4f2a3cc328db617a92b93ae3d7e35",
+        "signature": "4e8dc811fc5fbcbcf80dafcf3697fdb470b21e5b133eafc2cedde61f580115ef",
+        "affectsGlobalScope": false
+      },
+      "./src/api/form/PDFForm.ts": {
+        "version": "8918706973ec566dec53a1f0aec9044d6792fede557a66c32d50ead2637ec58e",
+        "signature": "29dd23485775372a27a7a7402b05fd866eb80048bfe165cf6794b70a1c481fb6",
+        "affectsGlobalScope": false
+      },
+      "./src/api/sizes.ts": {
+        "version": "7ed94d78f2797818e99243042630bef0e6e531d4a7e19f4c49f3588e2762489b",
+        "signature": "bc469b037c1f03ce20f98f6353de6b1d68e1ae5ad3fcae52e4fc2c2e3116fdf6",
+        "affectsGlobalScope": false
+      },
+      "./src/api/PDFDocumentOptions.ts": {
+        "version": "e7d632eafd2b1e837adebbf611b37fc65736e88430a3dd9a66577848a6cfeb95",
+        "signature": "3d84fcdd3c3bcd738f7805b6e6bcd07faca15eee7d291bcb932da0e0dc64ecff",
+        "affectsGlobalScope": false
+      },
+      "./src/api/PDFEmbeddedFile.ts": {
+        "version": "6a8c501a8c8827c9f7506b678bf99c93279070e834e9424b0bce2f2bb6591938",
+        "signature": "0b50e8690cf44a55ce1fa60629739b4bdab7a229750ec1e2506e6ddad3dacdbe",
+        "affectsGlobalScope": false
+      },
+      "./src/core/embedders/JavaScriptEmbedder.ts": {
+        "version": "324567052d29c33c5bb7d6961a6b8dee124135e34db777fc58c89b44218c58a0",
+        "signature": "2ce1e707b671532e095f1390b5589c663e1e226210455e78f348b81e8f15b660",
+        "affectsGlobalScope": false
+      },
+      "./src/api/PDFJavaScript.ts": {
+        "version": "cd68d16b6a084ab73ac8d19856996c7570318b18664af6d36630a8ac871b0deb",
+        "signature": "cf4f8f21e1db545ba22716948b035ec25b3a5cc3e68c27c9bf3c3c342220bc4e",
+        "affectsGlobalScope": false
+      },
+      "./src/api/PDFDocument.ts": {
+        "version": "47f8eb90141be50c5e7ffb66772d39b67a70c94b6eb374f4f355bd98624bd198",
+        "signature": "ed509c0debcee71da3261552a86ea400a0ae8eb915261abaecc8cf35122eb58d",
+        "affectsGlobalScope": false
+      },
+      "./src/api/PDFFont.ts": {
+        "version": "1a7f8152c33c711786b71b490658156a5541b2d51059e53a78486129619df352",
+        "signature": "5860b5624fb2bb0c55f3e39e73fb275ca7d1b2735e6e53f046c2c338b80c82bc",
+        "affectsGlobalScope": false
+      },
+      "./src/api/text/layout.ts": {
+        "version": "5e03cb8a6b87a97edaba61fcaf86e371b5d7929ab419965c16fe7002168d2e6f",
+        "signature": "3eef53d4d751692b93969988fd7d949253186a6f1b5f4e72aa3f6f3e0ce05ac7",
+        "affectsGlobalScope": false
+      },
+      "./src/api/form/appearances.ts": {
+        "version": "9906c190e4ba918be306b11b342f55d67565b183d058039860c93e755048e827",
+        "signature": "a9ca85c23f7af81ae713ff0c5f9803dca33dbe038933448b0186c4ab0ccc3d57",
+        "affectsGlobalScope": false
+      },
+      "./src/api/form/index.ts": {
+        "version": "d5d860880b7319fa2d3ca94a9da86780b5c6e0d6700c71e2ed7f8ac0b58af038",
+        "signature": "c4290796764a886fdf96f4a033e69311e038111eafd21b8b6e641a0226311c4e",
+        "affectsGlobalScope": false
+      },
+      "./src/api/text/index.ts": {
+        "version": "f979767cd8d3ba59e5371498354717f9167874d91f0239f47eefa7b66a5fe893",
+        "signature": "3573538ac16a2d69e789a0cabda2f493c726982058ad9a2f2a9d8e9ca025094d",
+        "affectsGlobalScope": false
+      },
+      "./src/api/index.ts": {
+        "version": "1746a4bab45bc7c258a9e8e6611f4c79e457007ecd88d97d6a1db643ca18da89",
+        "signature": "5f29428fe651fa41aef390265b8f99d1aa6b36e297738fc909b93f8c8f40b902",
+        "affectsGlobalScope": false
+      },
+      "./src/index.ts": {
+        "version": "74a2b798be4d9349efa4d2c6ebbb3c46e1b3450f3bce0c378639ef4625571507",
+        "signature": "a42ae7cfa8d1bee6bca758bc76ee0e9406864b849dea5bb7b5283aaadf5fc397",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/babel__generator/node_modules/@babel/types/lib/index.d.ts": {
+        "version": "9eac0dd4de5669db2b8321dffa400b997f7b21181118efc7a2c1743d93d4be57",
+        "signature": "9eac0dd4de5669db2b8321dffa400b997f7b21181118efc7a2c1743d93d4be57",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/babel__generator/index.d.ts": {
+        "version": "19fb2161edf60fbe73ee3650c1cee889df0525ed852eff2d5fa6e5480c132ae3",
+        "signature": "19fb2161edf60fbe73ee3650c1cee889df0525ed852eff2d5fa6e5480c132ae3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/babel__traverse/node_modules/@babel/types/lib/index.d.ts": {
+        "version": "9eac0dd4de5669db2b8321dffa400b997f7b21181118efc7a2c1743d93d4be57",
+        "signature": "9eac0dd4de5669db2b8321dffa400b997f7b21181118efc7a2c1743d93d4be57",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/babel__traverse/index.d.ts": {
+        "version": "30b805fe6d4272d147fea35fd859bc5f3e13b7c9d762bd35948fe842919452a5",
+        "signature": "30b805fe6d4272d147fea35fd859bc5f3e13b7c9d762bd35948fe842919452a5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@babel/types/lib/index.d.ts": {
+        "version": "9566baf39af3e8e8525367b91f8313d0f3dee7dd21aa76bb9ecbc5c3c66df739",
+        "signature": "9566baf39af3e8e8525367b91f8313d0f3dee7dd21aa76bb9ecbc5c3c66df739",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@babel/parser/typings/babel-parser.d.ts": {
+        "version": "67fb81fcd13edc5410665fa72892dd0878654b54946e8b0f10af5adc234bfe8f",
+        "signature": "67fb81fcd13edc5410665fa72892dd0878654b54946e8b0f10af5adc234bfe8f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/babel__template/node_modules/@babel/types/lib/index.d.ts": {
+        "version": "9eac0dd4de5669db2b8321dffa400b997f7b21181118efc7a2c1743d93d4be57",
+        "signature": "9eac0dd4de5669db2b8321dffa400b997f7b21181118efc7a2c1743d93d4be57",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/babel__template/index.d.ts": {
+        "version": "3e0a34f7207431d967dc32d593d1cda0c23975e9484bc8895b39d96ffca4a0d8",
+        "signature": "3e0a34f7207431d967dc32d593d1cda0c23975e9484bc8895b39d96ffca4a0d8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/babel__core/node_modules/@babel/types/lib/index.d.ts": {
+        "version": "9eac0dd4de5669db2b8321dffa400b997f7b21181118efc7a2c1743d93d4be57",
+        "signature": "9eac0dd4de5669db2b8321dffa400b997f7b21181118efc7a2c1743d93d4be57",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/babel__core/index.d.ts": {
+        "version": "af523cd24a11e1feadface05a9ac4f692a99bcb65c020b96061c63ac593824ad",
+        "signature": "af523cd24a11e1feadface05a9ac4f692a99bcb65c020b96061c63ac593824ad",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/color-name/index.d.ts": {
+        "version": "f0cb4b3ab88193e3e51e9e2622e4c375955003f1f81239d72c5b7a95415dad3e",
+        "signature": "f0cb4b3ab88193e3e51e9e2622e4c375955003f1f81239d72c5b7a95415dad3e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/estree/index.d.ts": {
+        "version": "89ccbe04e737ce613f5f04990271cfa84901446350b8551b0555ddf19319723b",
+        "signature": "89ccbe04e737ce613f5f04990271cfa84901446350b8551b0555ddf19319723b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/globals.d.ts": {
+        "version": "3af134c0480536f901a30692d216bd29712a3869fe38a7be066ea1eef34a8561",
+        "signature": "3af134c0480536f901a30692d216bd29712a3869fe38a7be066ea1eef34a8561",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/node/assert.d.ts": {
+        "version": "58a52f282f1dad18179023804c1f3a7536bf875748a0a314abd43f60fd5b244f",
+        "signature": "58a52f282f1dad18179023804c1f3a7536bf875748a0a314abd43f60fd5b244f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/async_hooks.d.ts": {
+        "version": "1305b079a057355f496bdde048716189178877a6b4fe0e9267a46af67f8c7561",
+        "signature": "1305b079a057355f496bdde048716189178877a6b4fe0e9267a46af67f8c7561",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/buffer.d.ts": {
+        "version": "fe892fea1e75a442fffb4a604d7eeb451e858787a9f2f01c4e83bf12a3b5048d",
+        "signature": "fe892fea1e75a442fffb4a604d7eeb451e858787a9f2f01c4e83bf12a3b5048d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/child_process.d.ts": {
+        "version": "c5a3c14cb11afb48d405562e6843145caa67c60be9738f408cd7977ce30a0b00",
+        "signature": "c5a3c14cb11afb48d405562e6843145caa67c60be9738f408cd7977ce30a0b00",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/cluster.d.ts": {
+        "version": "ce629710e5e58724902b753212e97861fd73e2aa09f5d88cb6d55dc763cf8c8a",
+        "signature": "ce629710e5e58724902b753212e97861fd73e2aa09f5d88cb6d55dc763cf8c8a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/console.d.ts": {
+        "version": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d",
+        "signature": "525c8fc510d9632d2a0a9de2d41c3ac1cdd79ff44d3b45c6d81cacabb683528d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/constants.d.ts": {
+        "version": "b952021e804dcd9cb5e5552e1ec8bf9f479b61e20da5641e2a542fe77db9a598",
+        "signature": "b952021e804dcd9cb5e5552e1ec8bf9f479b61e20da5641e2a542fe77db9a598",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/crypto.d.ts": {
+        "version": "a9ccdfa12ea56a5dc82a34df1820f820934ebb8af0f96324952be06e7484201f",
+        "signature": "a9ccdfa12ea56a5dc82a34df1820f820934ebb8af0f96324952be06e7484201f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/dgram.d.ts": {
+        "version": "b6c6861bccf209a98eeddb99bdb7bd987fb29fc52130d5d9fd2f79d3607a0a7a",
+        "signature": "b6c6861bccf209a98eeddb99bdb7bd987fb29fc52130d5d9fd2f79d3607a0a7a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/dns.d.ts": {
+        "version": "896cd7d58e9d832392a6e374a8f8b64f142089b4d2678a2c90fd8d1d49128677",
+        "signature": "896cd7d58e9d832392a6e374a8f8b64f142089b4d2678a2c90fd8d1d49128677",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/domain.d.ts": {
+        "version": "d5b7c8819ce1bd31a45f7675309e145ec28e3aa1b60a8e0637fd0e8916255baa",
+        "signature": "d5b7c8819ce1bd31a45f7675309e145ec28e3aa1b60a8e0637fd0e8916255baa",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/events.d.ts": {
+        "version": "0be551fde848d5adde38731272ee980bda2bde0f8bf2a76ce99e01b86985546c",
+        "signature": "0be551fde848d5adde38731272ee980bda2bde0f8bf2a76ce99e01b86985546c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/fs.d.ts": {
+        "version": "10c5b29dccf29ea7f9aea324ab09b0e2237d6506bd8e28538963b28855819616",
+        "signature": "10c5b29dccf29ea7f9aea324ab09b0e2237d6506bd8e28538963b28855819616",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/http.d.ts": {
+        "version": "cc4cd9d8af7f5689b5df3c91d0fc287fafbd89e6e305183da28a6877a8aa08a8",
+        "signature": "cc4cd9d8af7f5689b5df3c91d0fc287fafbd89e6e305183da28a6877a8aa08a8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/http2.d.ts": {
+        "version": "28fdca6c7a3d5dd62c738461051ef345b50d167efab39dceb2fcc9a079db1b07",
+        "signature": "28fdca6c7a3d5dd62c738461051ef345b50d167efab39dceb2fcc9a079db1b07",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/https.d.ts": {
+        "version": "dacbe08610729f6343ea9880ea8e737c6d7a6efa4a318d8f6acaf85db4aceed6",
+        "signature": "dacbe08610729f6343ea9880ea8e737c6d7a6efa4a318d8f6acaf85db4aceed6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/inspector.d.ts": {
+        "version": "7f71142177d3c98370b31751e3d320c9743ed28eee215acb88d8e0d2a31e321e",
+        "signature": "7f71142177d3c98370b31751e3d320c9743ed28eee215acb88d8e0d2a31e321e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/module.d.ts": {
+        "version": "03394bf8deb8781b490ae9266a843fbdf00647947d79e25fcbf1d89a9e9c8a66",
+        "signature": "03394bf8deb8781b490ae9266a843fbdf00647947d79e25fcbf1d89a9e9c8a66",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/net.d.ts": {
+        "version": "cc5fac2b9e45a6670b96fd32cb42c97e0d4a7b2ee12c87963c6fe0f55fa84f50",
+        "signature": "cc5fac2b9e45a6670b96fd32cb42c97e0d4a7b2ee12c87963c6fe0f55fa84f50",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/os.d.ts": {
+        "version": "1a6016bd905855b2b45881e9edbd7ab8c7175f8bcbb711ff06989c4bcdc75486",
+        "signature": "1a6016bd905855b2b45881e9edbd7ab8c7175f8bcbb711ff06989c4bcdc75486",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/path.d.ts": {
+        "version": "5fb30076f0e0e5744db8993648bfb67aadd895f439edad5cce039127a87a8a36",
+        "signature": "5fb30076f0e0e5744db8993648bfb67aadd895f439edad5cce039127a87a8a36",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/perf_hooks.d.ts": {
+        "version": "27ef4001526ee9d8afa57687a60bb3b59c52b32d29db0a2260094ab64726164f",
+        "signature": "27ef4001526ee9d8afa57687a60bb3b59c52b32d29db0a2260094ab64726164f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/process.d.ts": {
+        "version": "3a8848a9c307429b861402cc69bc472ffe0c05b86474fc158723169161e16389",
+        "signature": "3a8848a9c307429b861402cc69bc472ffe0c05b86474fc158723169161e16389",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/punycode.d.ts": {
+        "version": "30ec6f9c683b988c3cfaa0c4690692049c4e7ed7dc6f6e94f56194c06b86f5e1",
+        "signature": "30ec6f9c683b988c3cfaa0c4690692049c4e7ed7dc6f6e94f56194c06b86f5e1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/querystring.d.ts": {
+        "version": "b610b39b7d42b8e8359875ce77c3149d657bbaa6c9058beb655af805efb581b3",
+        "signature": "b610b39b7d42b8e8359875ce77c3149d657bbaa6c9058beb655af805efb581b3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/readline.d.ts": {
+        "version": "94cf93922adcc9cb4acf11d8d71641af728de919a50ae55d8e83159afea1a42c",
+        "signature": "94cf93922adcc9cb4acf11d8d71641af728de919a50ae55d8e83159afea1a42c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/repl.d.ts": {
+        "version": "65dbe15ed8a8ed5d4707a63868178dc38111cfc06de28a2e50713ca017a9c157",
+        "signature": "65dbe15ed8a8ed5d4707a63868178dc38111cfc06de28a2e50713ca017a9c157",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/stream.d.ts": {
+        "version": "15087156b728a1bdf46de0e1299f904c6a658af37f80851f6fe76fb21bb99b65",
+        "signature": "15087156b728a1bdf46de0e1299f904c6a658af37f80851f6fe76fb21bb99b65",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/string_decoder.d.ts": {
+        "version": "17e157df6125098a1a34eb4d201ee4ac03bbe97e471ab5627bb2c40fce555948",
+        "signature": "17e157df6125098a1a34eb4d201ee4ac03bbe97e471ab5627bb2c40fce555948",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/timers.d.ts": {
+        "version": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9",
+        "signature": "b40652bf8ce4a18133b31349086523b219724dca8df3448c1a0742528e7ad5b9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/tls.d.ts": {
+        "version": "8fd6756e8a6fac64089e19e4fbe822bcfafa62f79b237172288eaa1379e84083",
+        "signature": "8fd6756e8a6fac64089e19e4fbe822bcfafa62f79b237172288eaa1379e84083",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/trace_events.d.ts": {
+        "version": "978aecd2e6bc2ac094e9a35eda98ff8586713857b3655e7c98ca5ed8f7d50662",
+        "signature": "978aecd2e6bc2ac094e9a35eda98ff8586713857b3655e7c98ca5ed8f7d50662",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/tty.d.ts": {
+        "version": "0fd8dac24f12d9fd1fcc275200dd1b6771072f20331a07b18f7dbcbe20f7d3f4",
+        "signature": "0fd8dac24f12d9fd1fcc275200dd1b6771072f20331a07b18f7dbcbe20f7d3f4",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/url.d.ts": {
+        "version": "1e3da92862604b1f7a32265169f9aa712c4567742d42597704e04ae3e07019e7",
+        "signature": "1e3da92862604b1f7a32265169f9aa712c4567742d42597704e04ae3e07019e7",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/util.d.ts": {
+        "version": "0f6382d5032e45eec50b8f6c1e18c77544bc4db2ef8f854d196b254ec16add12",
+        "signature": "0f6382d5032e45eec50b8f6c1e18c77544bc4db2ef8f854d196b254ec16add12",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/v8.d.ts": {
+        "version": "6ad2dd29dbf3aea031062298e9978d4b2a1fadd0997eb9d8caaf95aaa89e7033",
+        "signature": "6ad2dd29dbf3aea031062298e9978d4b2a1fadd0997eb9d8caaf95aaa89e7033",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/vm.d.ts": {
+        "version": "f98df5ec124f441b465332271d0b083aeec815cd3c92d9249b9739e6318477a9",
+        "signature": "f98df5ec124f441b465332271d0b083aeec815cd3c92d9249b9739e6318477a9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/worker_threads.d.ts": {
+        "version": "16de20ae20cd1d948409a56b55832f3d416c66c8cb44bb8475e1e9db14d8e402",
+        "signature": "16de20ae20cd1d948409a56b55832f3d416c66c8cb44bb8475e1e9db14d8e402",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/zlib.d.ts": {
+        "version": "f91189e04264b0e41ee96ff96661c3871e739b90156df2f2288da7a81019dcd9",
+        "signature": "f91189e04264b0e41ee96ff96661c3871e739b90156df2f2288da7a81019dcd9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/base.d.ts": {
+        "version": "6622f76993bdfeaacb947ba7c4cf26f2e5c5194194d02d792c3cba4174cd8fce",
+        "signature": "6622f76993bdfeaacb947ba7c4cf26f2e5c5194194d02d792c3cba4174cd8fce",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/ts3.2/util.d.ts": {
+        "version": "4f54f0a9dd3b644c99ec32b32f8804d5978bc854799b228ae9c467bf3c84c64c",
+        "signature": "4f54f0a9dd3b644c99ec32b32f8804d5978bc854799b228ae9c467bf3c84c64c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node/ts3.2/globals.d.ts": {
+        "version": "4926e99d2ad39c0bbd36f2d37cc8f52756bc7a5661ad7b12815df871a4b07ba1",
+        "signature": "4926e99d2ad39c0bbd36f2d37cc8f52756bc7a5661ad7b12815df871a4b07ba1",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/node/ts3.2/index.d.ts": {
+        "version": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c",
+        "signature": "765fc34423b93c2ab763670d8d11d99e5f47387c13c161d6f1640dd6d91b7d1c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/graceful-fs/index.d.ts": {
+        "version": "2c7dca525f4e2e5f2b357dacb58ab6c8777995e6d505ef652bcbbf9789ac558f",
+        "signature": "2c7dca525f4e2e5f2b357dacb58ab6c8777995e6d505ef652bcbbf9789ac558f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/istanbul-lib-coverage/index.d.ts": {
+        "version": "9e951ec338c4232d611552a1be7b4ecec79a8c2307a893ce39701316fe2374bd",
+        "signature": "9e951ec338c4232d611552a1be7b4ecec79a8c2307a893ce39701316fe2374bd",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/istanbul-lib-report/index.d.ts": {
+        "version": "70c61ff569aabdf2b36220da6c06caaa27e45cd7acac81a1966ab4ee2eadc4f2",
+        "signature": "70c61ff569aabdf2b36220da6c06caaa27e45cd7acac81a1966ab4ee2eadc4f2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/istanbul-reports/index.d.ts": {
+        "version": "93b59bc67329d5add033e3198583c39aa939cef891e6a2b763e0bea2b514ea9b",
+        "signature": "93b59bc67329d5add033e3198583c39aa939cef891e6a2b763e0bea2b514ea9b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/jest/node_modules/jest-diff/build/cleanupSemantic.d.ts": {
+        "version": "9a605b7e5de905b5e67ef1dfc7fb6956275ee3f1744ded5fd314ee8b8befe7d0",
+        "signature": "9a605b7e5de905b5e67ef1dfc7fb6956275ee3f1744ded5fd314ee8b8befe7d0",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/jest/node_modules/jest-diff/build/types.d.ts": {
+        "version": "f343673792be9436af98016a143ee1eb3dfdac69b19a128721d92f468934f449",
+        "signature": "f343673792be9436af98016a143ee1eb3dfdac69b19a128721d92f468934f449",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/jest/node_modules/jest-diff/build/diffLines.d.ts": {
+        "version": "757ba482cc2bf38f297607a73d5f051463e0b8d98ad06f95497a2750ab2c81bf",
+        "signature": "757ba482cc2bf38f297607a73d5f051463e0b8d98ad06f95497a2750ab2c81bf",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/jest/node_modules/jest-diff/build/printDiffs.d.ts": {
+        "version": "bd74b0401c8f8aba933797403124c04ed7cf4a4e71e92d68d39034deacee864f",
+        "signature": "bd74b0401c8f8aba933797403124c04ed7cf4a4e71e92d68d39034deacee864f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/jest/node_modules/jest-diff/build/index.d.ts": {
+        "version": "d621da2e20d81fab2abde68c9df2d256fcaa3f2270b34b74f678646ad843575e",
+        "signature": "d621da2e20d81fab2abde68c9df2d256fcaa3f2270b34b74f678646ad843575e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/jest/node_modules/pretty-format/build/types.d.ts": {
+        "version": "1355e906451a677d0f34abc48b1120967c73280817acb1f56d7075fc9c0f3951",
+        "signature": "1355e906451a677d0f34abc48b1120967c73280817acb1f56d7075fc9c0f3951",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/jest/node_modules/pretty-format/build/index.d.ts": {
+        "version": "aced06b5c5de990d99f8ee2f000799e4818d3acad241a5510f9912891d56359c",
+        "signature": "aced06b5c5de990d99f8ee2f000799e4818d3acad241a5510f9912891d56359c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/jest/index.d.ts": {
+        "version": "7f8f56da66b0e04878603f35e4f4022689231b1ebca0e29426f471407cefffab",
+        "signature": "7f8f56da66b0e04878603f35e4f4022689231b1ebca0e29426f471407cefffab",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/jest/ts3.2/index.d.ts": {
+        "version": "d3002f620eab4bf6476c9da5c0efb2041d46f7df8b3032a5631bd206abef2c75",
+        "signature": "d3002f620eab4bf6476c9da5c0efb2041d46f7df8b3032a5631bd206abef2c75",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/form-data/index.d.ts": {
+        "version": "cbb7029e32a6a72178cda8baa9129b1ee6d1d779a35e46c780e38b4909d42a89",
+        "signature": "cbb7029e32a6a72178cda8baa9129b1ee6d1d779a35e46c780e38b4909d42a89",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node-fetch/externals.d.ts": {
+        "version": "972f1e91dab93b182624a17eeed02f683b8cb3fefbda7b689cc84570029d5f73",
+        "signature": "972f1e91dab93b182624a17eeed02f683b8cb3fefbda7b689cc84570029d5f73",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/node-fetch/index.d.ts": {
+        "version": "f51382950fa81e3a54e9fd9f343fe583cfbb221f15a51936e12411699347effe",
+        "signature": "f51382950fa81e3a54e9fd9f343fe583cfbb221f15a51936e12411699347effe",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/normalize-package-data/index.d.ts": {
+        "version": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
+        "signature": "c9ad058b2cc9ce6dc2ed92960d6d009e8c04bef46d3f5312283debca6869f613",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/prettier/index.d.ts": {
+        "version": "9f648f662bddda1b68b01992edd275c214838124a43c8d9210e4a61b974ff82d",
+        "signature": "9f648f662bddda1b68b01992edd275c214838124a43c8d9210e4a61b974ff82d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/resolve/index.d.ts": {
+        "version": "2880728492d6a6baa55411d14cc42fa55714a24b1d1d27ff9a8a610abd47c761",
+        "signature": "2880728492d6a6baa55411d14cc42fa55714a24b1d1d27ff9a8a610abd47c761",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/stack-utils/index.d.ts": {
+        "version": "41422586881bcd739b4e62d9b91cd29909f8572aa3e3cdf316b7c50f14708d49",
+        "signature": "41422586881bcd739b4e62d9b91cd29909f8572aa3e3cdf316b7c50f14708d49",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/yargs-parser/index.d.ts": {
+        "version": "7b48555954a556ad80cc5fda89473d339f570eeac7a7b4d99c88ff5e646c24f7",
+        "signature": "7b48555954a556ad80cc5fda89473d339f570eeac7a7b4d99c88ff5e646c24f7",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/yargs/index.d.ts": {
+        "version": "2893564a05d3bbe2a4d812dfd5ad3d7a6981a754283b695272d6ead03f638b67",
+        "signature": "2893564a05d3bbe2a4d812dfd5ad3d7a6981a754283b695272d6ead03f638b67",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "target": 1,
+      "module": 5,
+      "allowJs": false,
+      "checkJs": false,
+      "declaration": true,
+      "declarationMap": true,
+      "sourceMap": true,
+      "outDir": "./es",
+      "rootDir": "./src",
+      "composite": false,
+      "incremental": true,
+      "tsBuildInfoFile": "./tsBuildInfo.json",
+      "removeComments": false,
+      "importHelpers": true,
+      "downlevelIteration": false,
+      "isolatedModules": false,
+      "newLine": 1,
+      "strict": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "baseUrl": "./src",
+      "paths": {
+        "src/*": [
+          "./*"
+        ]
+      },
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "preserveSymlinks": true,
+      "moduleResolution": 2,
+      "plugins": [
+        {
+          "transform": "@zerollup/ts-transform-paths"
+        }
+      ],
+      "configFilePath": "./tsconfig.json"
+    },
+    "referencedMap": {
+      "./node_modules/@babel/parser/typings/babel-parser.d.ts": [
+        "./node_modules/@babel/types/lib/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@babel/types/lib/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@pdf-lib/standard-fonts/lib/Encoding.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@pdf-lib/standard-fonts/lib/Font.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@pdf-lib/standard-fonts/lib/index.d.ts": [
+        "./node_modules/@pdf-lib/standard-fonts/lib/Encoding.d.ts",
+        "./node_modules/@pdf-lib/standard-fonts/lib/Font.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@pdf-lib/upng/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/babel__core/index.d.ts": [
+        "./node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "./node_modules/@types/babel__generator/index.d.ts",
+        "./node_modules/@types/babel__generator/node_modules/@babel/types/lib/index.d.ts",
+        "./node_modules/@types/babel__template/index.d.ts",
+        "./node_modules/@types/babel__traverse/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/babel__core/node_modules/@babel/types/lib/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/babel__generator/index.d.ts": [
+        "./node_modules/@types/babel__generator/node_modules/@babel/types/lib/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/babel__generator/node_modules/@babel/types/lib/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/babel__template/index.d.ts": [
+        "./node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "./node_modules/@types/babel__generator/node_modules/@babel/types/lib/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/babel__template/node_modules/@babel/types/lib/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/babel__traverse/index.d.ts": [
+        "./node_modules/@types/babel__generator/node_modules/@babel/types/lib/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/babel__traverse/node_modules/@babel/types/lib/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/color-name/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/estree/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/graceful-fs/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/istanbul-lib-coverage/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/istanbul-lib-report/index.d.ts": [
+        "./node_modules/@types/istanbul-lib-coverage/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/istanbul-reports/index.d.ts": [
+        "./node_modules/@types/istanbul-lib-coverage/index.d.ts",
+        "./node_modules/@types/istanbul-lib-report/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/jest/index.d.ts": [
+        "./node_modules/@types/jest/node_modules/jest-diff/build/index.d.ts",
+        "./node_modules/@types/jest/node_modules/pretty-format/build/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/jest/node_modules/jest-diff/build/cleanupSemantic.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/jest/node_modules/jest-diff/build/diffLines.d.ts": [
+        "./node_modules/@types/jest/node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "./node_modules/@types/jest/node_modules/jest-diff/build/types.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/jest/node_modules/jest-diff/build/index.d.ts": [
+        "./node_modules/@types/jest/node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "./node_modules/@types/jest/node_modules/jest-diff/build/diffLines.d.ts",
+        "./node_modules/@types/jest/node_modules/jest-diff/build/printDiffs.d.ts",
+        "./node_modules/@types/jest/node_modules/jest-diff/build/types.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/jest/node_modules/jest-diff/build/printDiffs.d.ts": [
+        "./node_modules/@types/jest/node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "./node_modules/@types/jest/node_modules/jest-diff/build/types.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/jest/node_modules/jest-diff/build/types.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/jest/node_modules/pretty-format/build/index.d.ts": [
+        "./node_modules/@types/jest/node_modules/pretty-format/build/types.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/jest/node_modules/pretty-format/build/types.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/jest/ts3.2/index.d.ts": [
+        "./node_modules/@types/jest/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node-fetch/externals.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node-fetch/index.d.ts": [
+        "./node_modules/@types/node-fetch/externals.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/form-data/index.d.ts"
+      ],
+      "./node_modules/@types/node/assert.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/async_hooks.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/base.d.ts": [
+        "./node_modules/@types/node/assert.d.ts",
+        "./node_modules/@types/node/async_hooks.d.ts",
+        "./node_modules/@types/node/buffer.d.ts",
+        "./node_modules/@types/node/child_process.d.ts",
+        "./node_modules/@types/node/cluster.d.ts",
+        "./node_modules/@types/node/console.d.ts",
+        "./node_modules/@types/node/constants.d.ts",
+        "./node_modules/@types/node/crypto.d.ts",
+        "./node_modules/@types/node/dgram.d.ts",
+        "./node_modules/@types/node/dns.d.ts",
+        "./node_modules/@types/node/domain.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/globals.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/http2.d.ts",
+        "./node_modules/@types/node/https.d.ts",
+        "./node_modules/@types/node/inspector.d.ts",
+        "./node_modules/@types/node/module.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/os.d.ts",
+        "./node_modules/@types/node/path.d.ts",
+        "./node_modules/@types/node/perf_hooks.d.ts",
+        "./node_modules/@types/node/process.d.ts",
+        "./node_modules/@types/node/punycode.d.ts",
+        "./node_modules/@types/node/querystring.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/repl.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/string_decoder.d.ts",
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/tls.d.ts",
+        "./node_modules/@types/node/trace_events.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/tty.d.ts",
+        "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/v8.d.ts",
+        "./node_modules/@types/node/vm.d.ts",
+        "./node_modules/@types/node/worker_threads.d.ts",
+        "./node_modules/@types/node/zlib.d.ts"
+      ],
+      "./node_modules/@types/node/buffer.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/child_process.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/cluster.d.ts": [
+        "./node_modules/@types/node/child_process.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/console.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/constants.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/crypto.d.ts": [
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/dgram.d.ts": [
+        "./node_modules/@types/node/dns.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/dns.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/domain.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/events.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/fs.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/globals.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/http.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/http2.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/tls.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/https.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/tls.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/inspector.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/module.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/net.d.ts": [
+        "./node_modules/@types/node/dns.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/os.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/path.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/perf_hooks.d.ts": [
+        "./node_modules/@types/node/async_hooks.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/process.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/punycode.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/querystring.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/readline.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/repl.d.ts": [
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/vm.d.ts"
+      ],
+      "./node_modules/@types/node/stream.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/string_decoder.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/timers.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/tls.d.ts": [
+        "./node_modules/@types/node/crypto.d.ts",
+        "./node_modules/@types/node/dns.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/trace_events.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/ts3.2/globals.d.ts": [
+        "./node_modules/@types/node/globals.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/ts3.2/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/globals.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/ts3.2/util.d.ts": [
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/tty.d.ts": [
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/url.d.ts": [
+        "./node_modules/@types/node/querystring.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/util.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/node/v8.d.ts": [
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/vm.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/worker_threads.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/vm.d.ts"
+      ],
+      "./node_modules/@types/node/zlib.d.ts": [
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/normalize-package-data/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/pako/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/prettier/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/resolve/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/stack-utils/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/yargs-parser/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/yargs/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/yargs-parser/index.d.ts"
+      ],
+      "./node_modules/form-data/index.d.ts": [
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/tslib/tslib.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.dom.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2016.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2018.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2020.bigint.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es5.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.scripthost.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/api/Embeddable.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/api/PDFDocument.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/Embeddable.ts",
+        "./src/api/PDFDocumentOptions.ts",
+        "./src/api/PDFEmbeddedFile.ts",
+        "./src/api/PDFEmbeddedPage.ts",
+        "./src/api/PDFFont.ts",
+        "./src/api/PDFImage.ts",
+        "./src/api/PDFJavaScript.ts",
+        "./src/api/PDFPage.ts",
+        "./src/api/StandardFonts.ts",
+        "./src/api/errors.ts",
+        "./src/api/form/PDFForm.ts",
+        "./src/api/sizes.ts",
+        "./src/core/embedders/FileEmbedder.ts",
+        "./src/core/embedders/JavaScriptEmbedder.ts",
+        "./src/core/index.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/types/fontkit.ts",
+        "./src/types/matrix.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/api/PDFDocumentOptions.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/embedders/FileEmbedder.ts",
+        "./src/types/fontkit.ts"
+      ],
+      "./src/api/PDFEmbeddedFile.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/Embeddable.ts",
+        "./src/api/PDFDocument.ts",
+        "./src/core/embedders/FileEmbedder.ts",
+        "./src/core/index.ts"
+      ],
+      "./src/api/PDFEmbeddedPage.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/Embeddable.ts",
+        "./src/api/PDFDocument.ts",
+        "./src/core/index.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/api/PDFFont.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/Embeddable.ts",
+        "./src/api/PDFDocument.ts",
+        "./src/core/index.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/api/PDFImage.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/Embeddable.ts",
+        "./src/api/PDFDocument.ts",
+        "./src/core/index.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/api/PDFJavaScript.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/Embeddable.ts",
+        "./src/api/PDFDocument.ts",
+        "./src/core/embedders/JavaScriptEmbedder.ts",
+        "./src/core/index.ts"
+      ],
+      "./src/api/PDFPage.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/PDFDocument.ts",
+        "./src/api/PDFEmbeddedPage.ts",
+        "./src/api/PDFFont.ts",
+        "./src/api/PDFImage.ts",
+        "./src/api/PDFPageOptions.ts",
+        "./src/api/StandardFonts.ts",
+        "./src/api/colors.ts",
+        "./src/api/operations.ts",
+        "./src/api/operators.ts",
+        "./src/api/rotations.ts",
+        "./src/core/index.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/api/PDFPageOptions.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/PDFFont.ts",
+        "./src/api/colors.ts",
+        "./src/api/operators.ts",
+        "./src/api/rotations.ts",
+        "./src/types/index.ts"
+      ],
+      "./src/api/StandardFonts.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/api/colors.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/operators.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/api/errors.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/api/form/PDFButton.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/PDFDocument.ts",
+        "./src/api/PDFFont.ts",
+        "./src/api/PDFImage.ts",
+        "./src/api/PDFPage.ts",
+        "./src/api/colors.ts",
+        "./src/api/form/PDFField.ts",
+        "./src/api/form/appearances.ts",
+        "./src/api/image/alignment.ts",
+        "./src/api/rotations.ts",
+        "./src/core/index.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/api/form/PDFCheckBox.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/PDFDocument.ts",
+        "./src/api/PDFPage.ts",
+        "./src/api/colors.ts",
+        "./src/api/form/PDFField.ts",
+        "./src/api/form/appearances.ts",
+        "./src/api/rotations.ts",
+        "./src/core/index.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/api/form/PDFDropdown.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/PDFDocument.ts",
+        "./src/api/PDFFont.ts",
+        "./src/api/PDFPage.ts",
+        "./src/api/colors.ts",
+        "./src/api/form/PDFField.ts",
+        "./src/api/form/appearances.ts",
+        "./src/api/rotations.ts",
+        "./src/core/index.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/api/form/PDFField.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/PDFDocument.ts",
+        "./src/api/PDFFont.ts",
+        "./src/api/PDFImage.ts",
+        "./src/api/colors.ts",
+        "./src/api/form/appearances.ts",
+        "./src/api/image/index.ts",
+        "./src/api/operations.ts",
+        "./src/api/rotations.ts",
+        "./src/core/index.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/api/form/PDFForm.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/PDFDocument.ts",
+        "./src/api/PDFFont.ts",
+        "./src/api/PDFPage.ts",
+        "./src/api/StandardFonts.ts",
+        "./src/api/errors.ts",
+        "./src/api/form/PDFButton.ts",
+        "./src/api/form/PDFCheckBox.ts",
+        "./src/api/form/PDFDropdown.ts",
+        "./src/api/form/PDFField.ts",
+        "./src/api/form/PDFOptionList.ts",
+        "./src/api/form/PDFRadioGroup.ts",
+        "./src/api/form/PDFSignature.ts",
+        "./src/api/form/PDFTextField.ts",
+        "./src/api/operations.ts",
+        "./src/api/operators.ts",
+        "./src/core/index.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/api/form/PDFOptionList.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/PDFDocument.ts",
+        "./src/api/PDFFont.ts",
+        "./src/api/PDFPage.ts",
+        "./src/api/colors.ts",
+        "./src/api/form/PDFField.ts",
+        "./src/api/form/appearances.ts",
+        "./src/api/rotations.ts",
+        "./src/core/index.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/api/form/PDFRadioGroup.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/PDFDocument.ts",
+        "./src/api/PDFPage.ts",
+        "./src/api/colors.ts",
+        "./src/api/form/PDFField.ts",
+        "./src/api/form/appearances.ts",
+        "./src/api/rotations.ts",
+        "./src/core/index.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/api/form/PDFSignature.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/PDFDocument.ts",
+        "./src/api/form/PDFField.ts",
+        "./src/core/index.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/api/form/PDFTextField.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/PDFDocument.ts",
+        "./src/api/PDFFont.ts",
+        "./src/api/PDFImage.ts",
+        "./src/api/PDFPage.ts",
+        "./src/api/colors.ts",
+        "./src/api/errors.ts",
+        "./src/api/form/PDFField.ts",
+        "./src/api/form/appearances.ts",
+        "./src/api/image/alignment.ts",
+        "./src/api/rotations.ts",
+        "./src/api/text/alignment.ts",
+        "./src/core/index.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/api/form/appearances.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/PDFFont.ts",
+        "./src/api/colors.ts",
+        "./src/api/form/PDFButton.ts",
+        "./src/api/form/PDFCheckBox.ts",
+        "./src/api/form/PDFDropdown.ts",
+        "./src/api/form/PDFField.ts",
+        "./src/api/form/PDFOptionList.ts",
+        "./src/api/form/PDFRadioGroup.ts",
+        "./src/api/form/PDFSignature.ts",
+        "./src/api/form/PDFTextField.ts",
+        "./src/api/operations.ts",
+        "./src/api/operators.ts",
+        "./src/api/rotations.ts",
+        "./src/api/text/alignment.ts",
+        "./src/api/text/layout.ts",
+        "./src/core/index.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/api/form/index.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/form/PDFButton.ts",
+        "./src/api/form/PDFCheckBox.ts",
+        "./src/api/form/PDFDropdown.ts",
+        "./src/api/form/PDFField.ts",
+        "./src/api/form/PDFForm.ts",
+        "./src/api/form/PDFOptionList.ts",
+        "./src/api/form/PDFRadioGroup.ts",
+        "./src/api/form/PDFSignature.ts",
+        "./src/api/form/PDFTextField.ts",
+        "./src/api/form/appearances.ts"
+      ],
+      "./src/api/image/alignment.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/api/image/index.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/image/alignment.ts"
+      ],
+      "./src/api/index.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/Embeddable.ts",
+        "./src/api/PDFDocument.ts",
+        "./src/api/PDFDocumentOptions.ts",
+        "./src/api/PDFEmbeddedPage.ts",
+        "./src/api/PDFFont.ts",
+        "./src/api/PDFImage.ts",
+        "./src/api/PDFJavaScript.ts",
+        "./src/api/PDFPage.ts",
+        "./src/api/PDFPageOptions.ts",
+        "./src/api/StandardFonts.ts",
+        "./src/api/colors.ts",
+        "./src/api/errors.ts",
+        "./src/api/form/index.ts",
+        "./src/api/image/index.ts",
+        "./src/api/objects.ts",
+        "./src/api/operations.ts",
+        "./src/api/operators.ts",
+        "./src/api/rotations.ts",
+        "./src/api/sizes.ts",
+        "./src/api/text/index.ts"
+      ],
+      "./src/api/objects.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/index.ts"
+      ],
+      "./src/api/operations.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/colors.ts",
+        "./src/api/objects.ts",
+        "./src/api/operators.ts",
+        "./src/api/rotations.ts",
+        "./src/api/svgPath.ts",
+        "./src/core/index.ts",
+        "./src/types/index.ts"
+      ],
+      "./src/api/operators.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/objects.ts",
+        "./src/api/rotations.ts",
+        "./src/core/index.ts"
+      ],
+      "./src/api/rotations.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/api/sizes.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/api/svgPath.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/operators.ts",
+        "./src/core/index.ts"
+      ],
+      "./src/api/text/alignment.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/api/text/index.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/text/alignment.ts",
+        "./src/api/text/layout.ts"
+      ],
+      "./src/api/text/layout.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/PDFFont.ts",
+        "./src/api/errors.ts",
+        "./src/api/text/alignment.ts",
+        "./src/core/index.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/PDFContext.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/pako/index.d.ts",
+        "./src/core/document/PDFHeader.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFArray.ts",
+        "./src/core/objects/PDFBool.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFHexString.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFNull.ts",
+        "./src/core/objects/PDFNumber.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/core/objects/PDFRawStream.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/objects/PDFStream.ts",
+        "./src/core/objects/PDFString.ts",
+        "./src/core/operators/PDFOperator.ts",
+        "./src/core/operators/PDFOperatorNames.ts",
+        "./src/core/structures/PDFContentStream.ts",
+        "./src/utils/index.ts",
+        "./src/utils/rng.ts"
+      ],
+      "./src/core/PDFObjectCopier.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/objects/PDFArray.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/objects/PDFStream.ts",
+        "./src/core/structures/PDFPageLeaf.ts"
+      ],
+      "./src/core/acroform/PDFAcroButton.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/acroform/PDFAcroTerminal.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFArray.ts",
+        "./src/core/objects/PDFHexString.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/objects/PDFString.ts"
+      ],
+      "./src/core/acroform/PDFAcroCheckBox.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/acroform/PDFAcroButton.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFRef.ts"
+      ],
+      "./src/core/acroform/PDFAcroChoice.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/acroform/PDFAcroTerminal.ts",
+        "./src/core/acroform/flags.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFArray.ts",
+        "./src/core/objects/PDFHexString.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFString.ts"
+      ],
+      "./src/core/acroform/PDFAcroComboBox.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/acroform/PDFAcroChoice.ts",
+        "./src/core/acroform/flags.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFRef.ts"
+      ],
+      "./src/core/acroform/PDFAcroField.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFArray.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFHexString.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFNumber.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/objects/PDFString.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/acroform/PDFAcroForm.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/acroform/PDFAcroField.ts",
+        "./src/core/acroform/PDFAcroNonTerminal.ts",
+        "./src/core/acroform/utils.ts",
+        "./src/core/objects/PDFArray.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFRef.ts"
+      ],
+      "./src/core/acroform/PDFAcroListBox.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/acroform/PDFAcroChoice.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFRef.ts"
+      ],
+      "./src/core/acroform/PDFAcroNonTerminal.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/acroform/PDFAcroField.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFRef.ts"
+      ],
+      "./src/core/acroform/PDFAcroPushButton.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/acroform/PDFAcroButton.ts",
+        "./src/core/acroform/flags.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFRef.ts"
+      ],
+      "./src/core/acroform/PDFAcroRadioButton.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/acroform/PDFAcroButton.ts",
+        "./src/core/acroform/flags.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFRef.ts"
+      ],
+      "./src/core/acroform/PDFAcroSignature.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/acroform/PDFAcroTerminal.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFRef.ts"
+      ],
+      "./src/core/acroform/PDFAcroTerminal.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/acroform/PDFAcroField.ts",
+        "./src/core/annotation/PDFWidgetAnnotation.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFRef.ts"
+      ],
+      "./src/core/acroform/PDFAcroText.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/acroform/PDFAcroTerminal.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFHexString.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFNumber.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/objects/PDFString.ts"
+      ],
+      "./src/core/acroform/flags.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/core/acroform/index.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/acroform/PDFAcroButton.ts",
+        "./src/core/acroform/PDFAcroCheckBox.ts",
+        "./src/core/acroform/PDFAcroChoice.ts",
+        "./src/core/acroform/PDFAcroComboBox.ts",
+        "./src/core/acroform/PDFAcroField.ts",
+        "./src/core/acroform/PDFAcroForm.ts",
+        "./src/core/acroform/PDFAcroListBox.ts",
+        "./src/core/acroform/PDFAcroNonTerminal.ts",
+        "./src/core/acroform/PDFAcroPushButton.ts",
+        "./src/core/acroform/PDFAcroRadioButton.ts",
+        "./src/core/acroform/PDFAcroSignature.ts",
+        "./src/core/acroform/PDFAcroTerminal.ts",
+        "./src/core/acroform/PDFAcroText.ts",
+        "./src/core/acroform/flags.ts",
+        "./src/core/acroform/utils.ts"
+      ],
+      "./src/core/acroform/utils.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/acroform/PDFAcroButton.ts",
+        "./src/core/acroform/PDFAcroCheckBox.ts",
+        "./src/core/acroform/PDFAcroChoice.ts",
+        "./src/core/acroform/PDFAcroComboBox.ts",
+        "./src/core/acroform/PDFAcroField.ts",
+        "./src/core/acroform/PDFAcroListBox.ts",
+        "./src/core/acroform/PDFAcroNonTerminal.ts",
+        "./src/core/acroform/PDFAcroPushButton.ts",
+        "./src/core/acroform/PDFAcroRadioButton.ts",
+        "./src/core/acroform/PDFAcroSignature.ts",
+        "./src/core/acroform/PDFAcroTerminal.ts",
+        "./src/core/acroform/PDFAcroText.ts",
+        "./src/core/acroform/flags.ts",
+        "./src/core/objects/PDFArray.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFNumber.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/core/objects/PDFRef.ts"
+      ],
+      "./src/core/annotation/AppearanceCharacteristics.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/objects/PDFArray.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFHexString.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFNumber.ts",
+        "./src/core/objects/PDFString.ts"
+      ],
+      "./src/core/annotation/BorderStyle.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFNumber.ts"
+      ],
+      "./src/core/annotation/PDFAnnotation.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/objects/PDFArray.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFNumber.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/objects/PDFStream.ts"
+      ],
+      "./src/core/annotation/PDFWidgetAnnotation.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/annotation/AppearanceCharacteristics.ts",
+        "./src/core/annotation/BorderStyle.ts",
+        "./src/core/annotation/PDFAnnotation.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFHexString.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/objects/PDFString.ts"
+      ],
+      "./src/core/annotation/flags.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/core/annotation/index.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/annotation/AppearanceCharacteristics.ts",
+        "./src/core/annotation/PDFAnnotation.ts",
+        "./src/core/annotation/PDFWidgetAnnotation.ts",
+        "./src/core/annotation/flags.ts"
+      ],
+      "./src/core/document/PDFCrossRefSection.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/syntax/CharCodes.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/document/PDFHeader.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/syntax/CharCodes.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/document/PDFTrailer.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/syntax/CharCodes.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/document/PDFTrailerDict.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/syntax/CharCodes.ts"
+      ],
+      "./src/core/embedders/CMap.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/types/fontkit.ts",
+        "./src/utils/index.ts",
+        "./src/utils/unicode.ts"
+      ],
+      "./src/core/embedders/CustomFontEmbedder.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/embedders/CMap.ts",
+        "./src/core/embedders/FontFlags.ts",
+        "./src/core/objects/PDFHexString.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/objects/PDFString.ts",
+        "./src/types/fontkit.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/embedders/CustomFontSubsetEmbedder.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/embedders/CustomFontEmbedder.ts",
+        "./src/core/objects/PDFHexString.ts",
+        "./src/types/fontkit.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/embedders/FileEmbedder.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/objects/PDFHexString.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/objects/PDFString.ts"
+      ],
+      "./src/core/embedders/FontFlags.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/types/fontkit.ts"
+      ],
+      "./src/core/embedders/JavaScriptEmbedder.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/objects/PDFHexString.ts",
+        "./src/core/objects/PDFRef.ts"
+      ],
+      "./src/core/embedders/JpegEmbedder.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/objects/PDFRef.ts"
+      ],
+      "./src/core/embedders/PDFPageEmbedder.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFArray.ts",
+        "./src/core/objects/PDFNumber.ts",
+        "./src/core/objects/PDFRawStream.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/objects/PDFStream.ts",
+        "./src/core/streams/decode.ts",
+        "./src/core/structures/PDFContentStream.ts",
+        "./src/core/structures/PDFPageLeaf.ts",
+        "./src/core/syntax/CharCodes.ts",
+        "./src/types/matrix.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/embedders/PngEmbedder.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/utils/png.ts"
+      ],
+      "./src/core/embedders/StandardFontEmbedder.ts": [
+        "./node_modules/@pdf-lib/standard-fonts/lib/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/objects/PDFHexString.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/errors.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/index.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/PDFObjectCopier.ts",
+        "./src/core/acroform/index.ts",
+        "./src/core/annotation/index.ts",
+        "./src/core/document/PDFCrossRefSection.ts",
+        "./src/core/document/PDFHeader.ts",
+        "./src/core/document/PDFTrailer.ts",
+        "./src/core/document/PDFTrailerDict.ts",
+        "./src/core/embedders/CustomFontEmbedder.ts",
+        "./src/core/embedders/CustomFontSubsetEmbedder.ts",
+        "./src/core/embedders/FileEmbedder.ts",
+        "./src/core/embedders/JpegEmbedder.ts",
+        "./src/core/embedders/PDFPageEmbedder.ts",
+        "./src/core/embedders/PngEmbedder.ts",
+        "./src/core/embedders/StandardFontEmbedder.ts",
+        "./src/core/errors.ts",
+        "./src/core/interactive/ViewerPreferences.ts",
+        "./src/core/objects/PDFArray.ts",
+        "./src/core/objects/PDFBool.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFHexString.ts",
+        "./src/core/objects/PDFInvalidObject.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFNull.ts",
+        "./src/core/objects/PDFNumber.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/core/objects/PDFRawStream.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/objects/PDFStream.ts",
+        "./src/core/objects/PDFString.ts",
+        "./src/core/operators/PDFOperator.ts",
+        "./src/core/operators/PDFOperatorNames.ts",
+        "./src/core/parser/PDFObjectParser.ts",
+        "./src/core/parser/PDFObjectStreamParser.ts",
+        "./src/core/parser/PDFParser.ts",
+        "./src/core/parser/PDFXRefStreamParser.ts",
+        "./src/core/streams/decode.ts",
+        "./src/core/structures/PDFCatalog.ts",
+        "./src/core/structures/PDFContentStream.ts",
+        "./src/core/structures/PDFCrossRefStream.ts",
+        "./src/core/structures/PDFFlateStream.ts",
+        "./src/core/structures/PDFObjectStream.ts",
+        "./src/core/structures/PDFPageLeaf.ts",
+        "./src/core/structures/PDFPageTree.ts",
+        "./src/core/syntax/CharCodes.ts",
+        "./src/core/writers/PDFStreamWriter.ts",
+        "./src/core/writers/PDFWriter.ts"
+      ],
+      "./src/core/interactive/ViewerPreferences.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/objects/PDFArray.ts",
+        "./src/core/objects/PDFBool.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFNumber.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/objects/PDFArray.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFBool.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFHexString.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFNull.ts",
+        "./src/core/objects/PDFNumber.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/core/objects/PDFRawStream.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/objects/PDFStream.ts",
+        "./src/core/objects/PDFString.ts",
+        "./src/core/syntax/CharCodes.ts"
+      ],
+      "./src/core/objects/PDFBool.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/core/syntax/CharCodes.ts"
+      ],
+      "./src/core/objects/PDFDict.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/objects/PDFArray.ts",
+        "./src/core/objects/PDFBool.ts",
+        "./src/core/objects/PDFHexString.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFNull.ts",
+        "./src/core/objects/PDFNumber.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/objects/PDFStream.ts",
+        "./src/core/objects/PDFString.ts",
+        "./src/core/syntax/CharCodes.ts"
+      ],
+      "./src/core/objects/PDFHexString.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/core/syntax/CharCodes.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/objects/PDFInvalidObject.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/objects/PDFObject.ts"
+      ],
+      "./src/core/objects/PDFName.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/core/syntax/CharCodes.ts",
+        "./src/core/syntax/Irregular.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/objects/PDFNull.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/core/syntax/CharCodes.ts"
+      ],
+      "./src/core/objects/PDFNumber.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/objects/PDFObject.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/errors.ts"
+      ],
+      "./src/core/objects/PDFRawStream.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFStream.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/objects/PDFRef.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/objects/PDFStream.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFNumber.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/core/syntax/CharCodes.ts"
+      ],
+      "./src/core/objects/PDFString.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/core/syntax/CharCodes.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/operators/PDFOperator.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/objects/PDFArray.ts",
+        "./src/core/objects/PDFHexString.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFNumber.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/core/objects/PDFString.ts",
+        "./src/core/operators/PDFOperatorNames.ts",
+        "./src/core/syntax/CharCodes.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/operators/PDFOperatorNames.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/core/parser/BaseParser.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/errors.ts",
+        "./src/core/parser/ByteStream.ts",
+        "./src/core/syntax/CharCodes.ts",
+        "./src/core/syntax/Numeric.ts",
+        "./src/core/syntax/Whitespace.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/parser/ByteStream.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFRawStream.ts",
+        "./src/core/streams/decode.ts",
+        "./src/core/syntax/CharCodes.ts"
+      ],
+      "./src/core/parser/PDFObjectParser.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFArray.ts",
+        "./src/core/objects/PDFBool.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFHexString.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFNull.ts",
+        "./src/core/objects/PDFNumber.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/core/objects/PDFRawStream.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/objects/PDFStream.ts",
+        "./src/core/objects/PDFString.ts",
+        "./src/core/parser/BaseParser.ts",
+        "./src/core/parser/ByteStream.ts",
+        "./src/core/structures/PDFCatalog.ts",
+        "./src/core/structures/PDFPageLeaf.ts",
+        "./src/core/structures/PDFPageTree.ts",
+        "./src/core/syntax/CharCodes.ts",
+        "./src/core/syntax/Delimiters.ts",
+        "./src/core/syntax/Keywords.ts",
+        "./src/core/syntax/Numeric.ts",
+        "./src/core/syntax/Whitespace.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/parser/PDFObjectStreamParser.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFNumber.ts",
+        "./src/core/objects/PDFRawStream.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/parser/ByteStream.ts",
+        "./src/core/parser/PDFObjectParser.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/parser/PDFParser.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/document/PDFCrossRefSection.ts",
+        "./src/core/document/PDFHeader.ts",
+        "./src/core/document/PDFTrailer.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFInvalidObject.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/core/objects/PDFRawStream.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/parser/ByteStream.ts",
+        "./src/core/parser/PDFObjectParser.ts",
+        "./src/core/parser/PDFObjectStreamParser.ts",
+        "./src/core/parser/PDFXRefStreamParser.ts",
+        "./src/core/syntax/CharCodes.ts",
+        "./src/core/syntax/Keywords.ts",
+        "./src/core/syntax/Numeric.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/parser/PDFXRefStreamParser.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFArray.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFNumber.ts",
+        "./src/core/objects/PDFRawStream.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/parser/ByteStream.ts"
+      ],
+      "./src/core/streams/Ascii85Stream.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/streams/DecodeStream.ts",
+        "./src/core/streams/Stream.ts"
+      ],
+      "./src/core/streams/AsciiHexStream.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/streams/DecodeStream.ts",
+        "./src/core/streams/Stream.ts"
+      ],
+      "./src/core/streams/DecodeStream.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/errors.ts",
+        "./src/core/streams/Stream.ts"
+      ],
+      "./src/core/streams/FlateStream.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/streams/DecodeStream.ts",
+        "./src/core/streams/Stream.ts"
+      ],
+      "./src/core/streams/LZWStream.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/streams/DecodeStream.ts",
+        "./src/core/streams/Stream.ts"
+      ],
+      "./src/core/streams/RunLengthStream.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/streams/DecodeStream.ts",
+        "./src/core/streams/Stream.ts"
+      ],
+      "./src/core/streams/Stream.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/core/streams/decode.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFArray.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFNull.ts",
+        "./src/core/objects/PDFNumber.ts",
+        "./src/core/objects/PDFRawStream.ts",
+        "./src/core/streams/Ascii85Stream.ts",
+        "./src/core/streams/AsciiHexStream.ts",
+        "./src/core/streams/FlateStream.ts",
+        "./src/core/streams/LZWStream.ts",
+        "./src/core/streams/RunLengthStream.ts",
+        "./src/core/streams/Stream.ts"
+      ],
+      "./src/core/structures/PDFCatalog.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/acroform/index.ts",
+        "./src/core/interactive/ViewerPreferences.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/structures/PDFPageTree.ts"
+      ],
+      "./src/core/structures/PDFContentStream.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/operators/PDFOperator.ts",
+        "./src/core/structures/PDFFlateStream.ts",
+        "./src/core/syntax/CharCodes.ts"
+      ],
+      "./src/core/structures/PDFCrossRefStream.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/structures/PDFFlateStream.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/structures/PDFFlateStream.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/pako/index.d.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFStream.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/structures/PDFObjectStream.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFNumber.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/structures/PDFFlateStream.ts",
+        "./src/core/syntax/CharCodes.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/structures/PDFPageLeaf.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/objects/PDFArray.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFNumber.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/objects/PDFStream.ts",
+        "./src/core/structures/PDFPageTree.ts"
+      ],
+      "./src/core/structures/PDFPageTree.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/errors.ts",
+        "./src/core/objects/PDFArray.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFNumber.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/structures/PDFPageLeaf.ts"
+      ],
+      "./src/core/syntax/CharCodes.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/core/syntax/Delimiters.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/syntax/CharCodes.ts"
+      ],
+      "./src/core/syntax/Irregular.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/syntax/CharCodes.ts",
+        "./src/core/syntax/Delimiters.ts",
+        "./src/core/syntax/Whitespace.ts"
+      ],
+      "./src/core/syntax/Keywords.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/syntax/CharCodes.ts"
+      ],
+      "./src/core/syntax/Numeric.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/syntax/CharCodes.ts"
+      ],
+      "./src/core/syntax/Whitespace.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/syntax/CharCodes.ts"
+      ],
+      "./src/core/writers/PDFStreamWriter.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/document/PDFHeader.ts",
+        "./src/core/document/PDFTrailer.ts",
+        "./src/core/objects/PDFInvalidObject.ts",
+        "./src/core/objects/PDFName.ts",
+        "./src/core/objects/PDFNumber.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/objects/PDFStream.ts",
+        "./src/core/structures/PDFCrossRefStream.ts",
+        "./src/core/structures/PDFObjectStream.ts",
+        "./src/core/writers/PDFWriter.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/core/writers/PDFWriter.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/core/PDFContext.ts",
+        "./src/core/document/PDFCrossRefSection.ts",
+        "./src/core/document/PDFHeader.ts",
+        "./src/core/document/PDFTrailer.ts",
+        "./src/core/document/PDFTrailerDict.ts",
+        "./src/core/objects/PDFDict.ts",
+        "./src/core/objects/PDFObject.ts",
+        "./src/core/objects/PDFRef.ts",
+        "./src/core/structures/PDFObjectStream.ts",
+        "./src/core/syntax/CharCodes.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/index.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/api/index.ts",
+        "./src/core/index.ts",
+        "./src/types/index.ts",
+        "./src/utils/index.ts"
+      ],
+      "./src/types/fontkit.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/types/index.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/types/matrix.ts"
+      ],
+      "./src/types/matrix.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/utils/Cache.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/utils/arrays.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/utils/base64.ts",
+        "./src/utils/strings.ts"
+      ],
+      "./src/utils/async.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/utils/base64.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/utils/errors.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/utils/index.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/utils/Cache.ts",
+        "./src/utils/arrays.ts",
+        "./src/utils/async.ts",
+        "./src/utils/base64.ts",
+        "./src/utils/errors.ts",
+        "./src/utils/numbers.ts",
+        "./src/utils/objects.ts",
+        "./src/utils/pdfDocEncoding.ts",
+        "./src/utils/strings.ts",
+        "./src/utils/unicode.ts",
+        "./src/utils/validators.ts"
+      ],
+      "./src/utils/numbers.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/utils/objects.ts": [
+        "./node_modules/@pdf-lib/standard-fonts/lib/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/utils/pdfDocEncoding.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/utils/strings.ts"
+      ],
+      "./src/utils/png.ts": [
+        "./node_modules/@pdf-lib/upng/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/utils/rng.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/utils/strings.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./src/utils/unicode.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/utils/strings.ts"
+      ],
+      "./src/utils/validators.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./src/utils/objects.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "./node_modules/@babel/parser/typings/babel-parser.d.ts": [
+        "./node_modules/@babel/types/lib/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@babel/types/lib/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@pdf-lib/standard-fonts/lib/Encoding.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@pdf-lib/standard-fonts/lib/Font.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@pdf-lib/standard-fonts/lib/index.d.ts": [
+        "./node_modules/@pdf-lib/standard-fonts/lib/Encoding.d.ts",
+        "./node_modules/@pdf-lib/standard-fonts/lib/Font.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@pdf-lib/upng/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/babel__core/index.d.ts": [
+        "./node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "./node_modules/@types/babel__generator/index.d.ts",
+        "./node_modules/@types/babel__generator/node_modules/@babel/types/lib/index.d.ts",
+        "./node_modules/@types/babel__template/index.d.ts",
+        "./node_modules/@types/babel__traverse/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/babel__core/node_modules/@babel/types/lib/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/babel__generator/index.d.ts": [
+        "./node_modules/@types/babel__generator/node_modules/@babel/types/lib/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/babel__generator/node_modules/@babel/types/lib/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/babel__template/index.d.ts": [
+        "./node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "./node_modules/@types/babel__generator/node_modules/@babel/types/lib/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/babel__template/node_modules/@babel/types/lib/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/babel__traverse/index.d.ts": [
+        "./node_modules/@types/babel__generator/node_modules/@babel/types/lib/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/babel__traverse/node_modules/@babel/types/lib/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/color-name/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/estree/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/graceful-fs/index.d.ts": [
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/istanbul-lib-coverage/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/istanbul-lib-report/index.d.ts": [
+        "./node_modules/@types/istanbul-lib-coverage/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/istanbul-reports/index.d.ts": [
+        "./node_modules/@types/istanbul-lib-coverage/index.d.ts",
+        "./node_modules/@types/istanbul-lib-report/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/jest/index.d.ts": [
+        "./node_modules/@types/jest/node_modules/jest-diff/build/index.d.ts",
+        "./node_modules/@types/jest/node_modules/pretty-format/build/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/jest/node_modules/jest-diff/build/cleanupSemantic.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/jest/node_modules/jest-diff/build/diffLines.d.ts": [
+        "./node_modules/@types/jest/node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "./node_modules/@types/jest/node_modules/jest-diff/build/types.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/jest/node_modules/jest-diff/build/index.d.ts": [
+        "./node_modules/@types/jest/node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "./node_modules/@types/jest/node_modules/jest-diff/build/diffLines.d.ts",
+        "./node_modules/@types/jest/node_modules/jest-diff/build/printDiffs.d.ts",
+        "./node_modules/@types/jest/node_modules/jest-diff/build/types.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/jest/node_modules/jest-diff/build/printDiffs.d.ts": [
+        "./node_modules/@types/jest/node_modules/jest-diff/build/cleanupSemantic.d.ts",
+        "./node_modules/@types/jest/node_modules/jest-diff/build/types.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/jest/node_modules/jest-diff/build/types.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/jest/node_modules/pretty-format/build/index.d.ts": [
+        "./node_modules/@types/jest/node_modules/pretty-format/build/types.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/jest/node_modules/pretty-format/build/types.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/jest/ts3.2/index.d.ts": [
+        "./node_modules/@types/jest/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node-fetch/externals.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node-fetch/index.d.ts": [
+        "./node_modules/@types/node-fetch/externals.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/form-data/index.d.ts"
+      ],
+      "./node_modules/@types/node/assert.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/async_hooks.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/base.d.ts": [
+        "./node_modules/@types/node/assert.d.ts",
+        "./node_modules/@types/node/async_hooks.d.ts",
+        "./node_modules/@types/node/buffer.d.ts",
+        "./node_modules/@types/node/child_process.d.ts",
+        "./node_modules/@types/node/cluster.d.ts",
+        "./node_modules/@types/node/console.d.ts",
+        "./node_modules/@types/node/constants.d.ts",
+        "./node_modules/@types/node/crypto.d.ts",
+        "./node_modules/@types/node/dgram.d.ts",
+        "./node_modules/@types/node/dns.d.ts",
+        "./node_modules/@types/node/domain.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/globals.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/http2.d.ts",
+        "./node_modules/@types/node/https.d.ts",
+        "./node_modules/@types/node/inspector.d.ts",
+        "./node_modules/@types/node/module.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/os.d.ts",
+        "./node_modules/@types/node/path.d.ts",
+        "./node_modules/@types/node/perf_hooks.d.ts",
+        "./node_modules/@types/node/process.d.ts",
+        "./node_modules/@types/node/punycode.d.ts",
+        "./node_modules/@types/node/querystring.d.ts",
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/repl.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/string_decoder.d.ts",
+        "./node_modules/@types/node/timers.d.ts",
+        "./node_modules/@types/node/tls.d.ts",
+        "./node_modules/@types/node/trace_events.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/tty.d.ts",
+        "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/v8.d.ts",
+        "./node_modules/@types/node/vm.d.ts",
+        "./node_modules/@types/node/worker_threads.d.ts",
+        "./node_modules/@types/node/zlib.d.ts"
+      ],
+      "./node_modules/@types/node/buffer.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/child_process.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/cluster.d.ts": [
+        "./node_modules/@types/node/child_process.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/console.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/constants.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/crypto.d.ts": [
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/dgram.d.ts": [
+        "./node_modules/@types/node/dns.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/dns.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/domain.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/events.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/fs.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/globals.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/http.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/http2.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/fs.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/tls.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/https.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/tls.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/url.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/inspector.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/module.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/net.d.ts": [
+        "./node_modules/@types/node/dns.d.ts",
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/os.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/path.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/perf_hooks.d.ts": [
+        "./node_modules/@types/node/async_hooks.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/process.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/punycode.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/querystring.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/readline.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/repl.d.ts": [
+        "./node_modules/@types/node/readline.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/vm.d.ts"
+      ],
+      "./node_modules/@types/node/stream.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/string_decoder.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/timers.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/tls.d.ts": [
+        "./node_modules/@types/node/crypto.d.ts",
+        "./node_modules/@types/node/dns.d.ts",
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/trace_events.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/ts3.2/globals.d.ts": [
+        "./node_modules/@types/node/globals.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/ts3.2/index.d.ts": [
+        "./node_modules/@types/node/base.d.ts",
+        "./node_modules/@types/node/ts3.2/globals.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/ts3.2/util.d.ts": [
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/tty.d.ts": [
+        "./node_modules/@types/node/net.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/url.d.ts": [
+        "./node_modules/@types/node/querystring.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/util.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./node_modules/@types/node/v8.d.ts": [
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/vm.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/node/worker_threads.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/node/vm.d.ts"
+      ],
+      "./node_modules/@types/node/zlib.d.ts": [
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/normalize-package-data/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/pako/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/prettier/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/resolve/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/stack-utils/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/yargs-parser/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/@types/yargs/index.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts",
+        "./node_modules/@types/yargs-parser/index.d.ts"
+      ],
+      "./node_modules/form-data/index.d.ts": [
+        "./node_modules/@types/node/http.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/ts3.2/index.d.ts",
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/tslib/tslib.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.dom.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.collection.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.core.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.generator.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.promise.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2016.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.intl.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.object.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.string.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2018.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2018.intl.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2018.promise.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2018.regexp.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es2020.bigint.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.es5.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.esnext.intl.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.scripthost.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ],
+      "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts": [
+        "./node_modules/@types/node/ts3.2/util.d.ts",
+        "./node_modules/@types/node/util.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "./node_modules/@babel/parser/typings/babel-parser.d.ts",
+      "./node_modules/@babel/types/lib/index.d.ts",
+      "./node_modules/@pdf-lib/standard-fonts/lib/Encoding.d.ts",
+      "./node_modules/@pdf-lib/standard-fonts/lib/Font.d.ts",
+      "./node_modules/@pdf-lib/standard-fonts/lib/index.d.ts",
+      "./node_modules/@pdf-lib/upng/index.d.ts",
+      "./node_modules/@types/babel__core/index.d.ts",
+      "./node_modules/@types/babel__core/node_modules/@babel/types/lib/index.d.ts",
+      "./node_modules/@types/babel__generator/index.d.ts",
+      "./node_modules/@types/babel__generator/node_modules/@babel/types/lib/index.d.ts",
+      "./node_modules/@types/babel__template/index.d.ts",
+      "./node_modules/@types/babel__template/node_modules/@babel/types/lib/index.d.ts",
+      "./node_modules/@types/babel__traverse/index.d.ts",
+      "./node_modules/@types/babel__traverse/node_modules/@babel/types/lib/index.d.ts",
+      "./node_modules/@types/color-name/index.d.ts",
+      "./node_modules/@types/estree/index.d.ts",
+      "./node_modules/@types/graceful-fs/index.d.ts",
+      "./node_modules/@types/istanbul-lib-coverage/index.d.ts",
+      "./node_modules/@types/istanbul-lib-report/index.d.ts",
+      "./node_modules/@types/istanbul-reports/index.d.ts",
+      "./node_modules/@types/jest/index.d.ts",
+      "./node_modules/@types/jest/node_modules/jest-diff/build/cleanupSemantic.d.ts",
+      "./node_modules/@types/jest/node_modules/jest-diff/build/diffLines.d.ts",
+      "./node_modules/@types/jest/node_modules/jest-diff/build/index.d.ts",
+      "./node_modules/@types/jest/node_modules/jest-diff/build/printDiffs.d.ts",
+      "./node_modules/@types/jest/node_modules/jest-diff/build/types.d.ts",
+      "./node_modules/@types/jest/node_modules/pretty-format/build/index.d.ts",
+      "./node_modules/@types/jest/node_modules/pretty-format/build/types.d.ts",
+      "./node_modules/@types/jest/ts3.2/index.d.ts",
+      "./node_modules/@types/node-fetch/externals.d.ts",
+      "./node_modules/@types/node-fetch/index.d.ts",
+      "./node_modules/@types/node/assert.d.ts",
+      "./node_modules/@types/node/async_hooks.d.ts",
+      "./node_modules/@types/node/base.d.ts",
+      "./node_modules/@types/node/buffer.d.ts",
+      "./node_modules/@types/node/child_process.d.ts",
+      "./node_modules/@types/node/cluster.d.ts",
+      "./node_modules/@types/node/console.d.ts",
+      "./node_modules/@types/node/constants.d.ts",
+      "./node_modules/@types/node/crypto.d.ts",
+      "./node_modules/@types/node/dgram.d.ts",
+      "./node_modules/@types/node/dns.d.ts",
+      "./node_modules/@types/node/domain.d.ts",
+      "./node_modules/@types/node/events.d.ts",
+      "./node_modules/@types/node/fs.d.ts",
+      "./node_modules/@types/node/globals.d.ts",
+      "./node_modules/@types/node/http.d.ts",
+      "./node_modules/@types/node/http2.d.ts",
+      "./node_modules/@types/node/https.d.ts",
+      "./node_modules/@types/node/inspector.d.ts",
+      "./node_modules/@types/node/module.d.ts",
+      "./node_modules/@types/node/net.d.ts",
+      "./node_modules/@types/node/os.d.ts",
+      "./node_modules/@types/node/path.d.ts",
+      "./node_modules/@types/node/perf_hooks.d.ts",
+      "./node_modules/@types/node/process.d.ts",
+      "./node_modules/@types/node/punycode.d.ts",
+      "./node_modules/@types/node/querystring.d.ts",
+      "./node_modules/@types/node/readline.d.ts",
+      "./node_modules/@types/node/repl.d.ts",
+      "./node_modules/@types/node/stream.d.ts",
+      "./node_modules/@types/node/string_decoder.d.ts",
+      "./node_modules/@types/node/timers.d.ts",
+      "./node_modules/@types/node/tls.d.ts",
+      "./node_modules/@types/node/trace_events.d.ts",
+      "./node_modules/@types/node/ts3.2/globals.d.ts",
+      "./node_modules/@types/node/ts3.2/index.d.ts",
+      "./node_modules/@types/node/ts3.2/util.d.ts",
+      "./node_modules/@types/node/tty.d.ts",
+      "./node_modules/@types/node/url.d.ts",
+      "./node_modules/@types/node/util.d.ts",
+      "./node_modules/@types/node/v8.d.ts",
+      "./node_modules/@types/node/vm.d.ts",
+      "./node_modules/@types/node/worker_threads.d.ts",
+      "./node_modules/@types/node/zlib.d.ts",
+      "./node_modules/@types/normalize-package-data/index.d.ts",
+      "./node_modules/@types/pako/index.d.ts",
+      "./node_modules/@types/prettier/index.d.ts",
+      "./node_modules/@types/resolve/index.d.ts",
+      "./node_modules/@types/stack-utils/index.d.ts",
+      "./node_modules/@types/yargs-parser/index.d.ts",
+      "./node_modules/@types/yargs/index.d.ts",
+      "./node_modules/form-data/index.d.ts",
+      "./node_modules/tslib/tslib.d.ts",
+      "./node_modules/typescript/lib/lib.d.ts",
+      "./node_modules/typescript/lib/lib.dom.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "./node_modules/typescript/lib/lib.es2016.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "./node_modules/typescript/lib/lib.es2020.bigint.d.ts",
+      "./node_modules/typescript/lib/lib.es5.d.ts",
+      "./node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "./node_modules/typescript/lib/lib.scripthost.d.ts",
+      "./node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "./src/api/Embeddable.ts",
+      "./src/api/PDFDocument.ts",
+      "./src/api/PDFDocumentOptions.ts",
+      "./src/api/PDFEmbeddedFile.ts",
+      "./src/api/PDFEmbeddedPage.ts",
+      "./src/api/PDFFont.ts",
+      "./src/api/PDFImage.ts",
+      "./src/api/PDFJavaScript.ts",
+      "./src/api/PDFPage.ts",
+      "./src/api/PDFPageOptions.ts",
+      "./src/api/StandardFonts.ts",
+      "./src/api/colors.ts",
+      "./src/api/errors.ts",
+      "./src/api/form/PDFButton.ts",
+      "./src/api/form/PDFCheckBox.ts",
+      "./src/api/form/PDFDropdown.ts",
+      "./src/api/form/PDFField.ts",
+      "./src/api/form/PDFForm.ts",
+      "./src/api/form/PDFOptionList.ts",
+      "./src/api/form/PDFRadioGroup.ts",
+      "./src/api/form/PDFSignature.ts",
+      "./src/api/form/PDFTextField.ts",
+      "./src/api/form/appearances.ts",
+      "./src/api/form/index.ts",
+      "./src/api/image/alignment.ts",
+      "./src/api/image/index.ts",
+      "./src/api/index.ts",
+      "./src/api/objects.ts",
+      "./src/api/operations.ts",
+      "./src/api/operators.ts",
+      "./src/api/rotations.ts",
+      "./src/api/sizes.ts",
+      "./src/api/svgPath.ts",
+      "./src/api/text/alignment.ts",
+      "./src/api/text/index.ts",
+      "./src/api/text/layout.ts",
+      "./src/core/PDFContext.ts",
+      "./src/core/PDFObjectCopier.ts",
+      "./src/core/acroform/PDFAcroButton.ts",
+      "./src/core/acroform/PDFAcroCheckBox.ts",
+      "./src/core/acroform/PDFAcroChoice.ts",
+      "./src/core/acroform/PDFAcroComboBox.ts",
+      "./src/core/acroform/PDFAcroField.ts",
+      "./src/core/acroform/PDFAcroForm.ts",
+      "./src/core/acroform/PDFAcroListBox.ts",
+      "./src/core/acroform/PDFAcroNonTerminal.ts",
+      "./src/core/acroform/PDFAcroPushButton.ts",
+      "./src/core/acroform/PDFAcroRadioButton.ts",
+      "./src/core/acroform/PDFAcroSignature.ts",
+      "./src/core/acroform/PDFAcroTerminal.ts",
+      "./src/core/acroform/PDFAcroText.ts",
+      "./src/core/acroform/flags.ts",
+      "./src/core/acroform/index.ts",
+      "./src/core/acroform/utils.ts",
+      "./src/core/annotation/AppearanceCharacteristics.ts",
+      "./src/core/annotation/BorderStyle.ts",
+      "./src/core/annotation/PDFAnnotation.ts",
+      "./src/core/annotation/PDFWidgetAnnotation.ts",
+      "./src/core/annotation/flags.ts",
+      "./src/core/annotation/index.ts",
+      "./src/core/document/PDFCrossRefSection.ts",
+      "./src/core/document/PDFHeader.ts",
+      "./src/core/document/PDFTrailer.ts",
+      "./src/core/document/PDFTrailerDict.ts",
+      "./src/core/embedders/CMap.ts",
+      "./src/core/embedders/CustomFontEmbedder.ts",
+      "./src/core/embedders/CustomFontSubsetEmbedder.ts",
+      "./src/core/embedders/FileEmbedder.ts",
+      "./src/core/embedders/FontFlags.ts",
+      "./src/core/embedders/JavaScriptEmbedder.ts",
+      "./src/core/embedders/JpegEmbedder.ts",
+      "./src/core/embedders/PDFPageEmbedder.ts",
+      "./src/core/embedders/PngEmbedder.ts",
+      "./src/core/embedders/StandardFontEmbedder.ts",
+      "./src/core/errors.ts",
+      "./src/core/index.ts",
+      "./src/core/interactive/ViewerPreferences.ts",
+      "./src/core/objects/PDFArray.ts",
+      "./src/core/objects/PDFBool.ts",
+      "./src/core/objects/PDFDict.ts",
+      "./src/core/objects/PDFHexString.ts",
+      "./src/core/objects/PDFInvalidObject.ts",
+      "./src/core/objects/PDFName.ts",
+      "./src/core/objects/PDFNull.ts",
+      "./src/core/objects/PDFNumber.ts",
+      "./src/core/objects/PDFObject.ts",
+      "./src/core/objects/PDFRawStream.ts",
+      "./src/core/objects/PDFRef.ts",
+      "./src/core/objects/PDFStream.ts",
+      "./src/core/objects/PDFString.ts",
+      "./src/core/operators/PDFOperator.ts",
+      "./src/core/operators/PDFOperatorNames.ts",
+      "./src/core/parser/BaseParser.ts",
+      "./src/core/parser/ByteStream.ts",
+      "./src/core/parser/PDFObjectParser.ts",
+      "./src/core/parser/PDFObjectStreamParser.ts",
+      "./src/core/parser/PDFParser.ts",
+      "./src/core/parser/PDFXRefStreamParser.ts",
+      "./src/core/streams/Ascii85Stream.ts",
+      "./src/core/streams/AsciiHexStream.ts",
+      "./src/core/streams/DecodeStream.ts",
+      "./src/core/streams/FlateStream.ts",
+      "./src/core/streams/LZWStream.ts",
+      "./src/core/streams/RunLengthStream.ts",
+      "./src/core/streams/Stream.ts",
+      "./src/core/streams/decode.ts",
+      "./src/core/structures/PDFCatalog.ts",
+      "./src/core/structures/PDFContentStream.ts",
+      "./src/core/structures/PDFCrossRefStream.ts",
+      "./src/core/structures/PDFFlateStream.ts",
+      "./src/core/structures/PDFObjectStream.ts",
+      "./src/core/structures/PDFPageLeaf.ts",
+      "./src/core/structures/PDFPageTree.ts",
+      "./src/core/syntax/CharCodes.ts",
+      "./src/core/syntax/Delimiters.ts",
+      "./src/core/syntax/Irregular.ts",
+      "./src/core/syntax/Keywords.ts",
+      "./src/core/syntax/Numeric.ts",
+      "./src/core/syntax/Whitespace.ts",
+      "./src/core/writers/PDFStreamWriter.ts",
+      "./src/core/writers/PDFWriter.ts",
+      "./src/index.ts",
+      "./src/types/fontkit.ts",
+      "./src/types/index.ts",
+      "./src/types/matrix.ts",
+      "./src/utils/Cache.ts",
+      "./src/utils/arrays.ts",
+      "./src/utils/async.ts",
+      "./src/utils/base64.ts",
+      "./src/utils/errors.ts",
+      "./src/utils/index.ts",
+      "./src/utils/numbers.ts",
+      "./src/utils/objects.ts",
+      "./src/utils/pdfDocEncoding.ts",
+      "./src/utils/png.ts",
+      "./src/utils/rng.ts",
+      "./src/utils/strings.ts",
+      "./src/utils/unicode.ts",
+      "./src/utils/validators.ts"
+    ]
+  },
+  "version": "3.9.5"
+}
